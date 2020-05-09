@@ -1,0 +1,403 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="https://daks2k3a4ib2z.cloudfront.net/577a17a71a78df7357099a96/css/startup-template-webflow.webflow.5b3f7aad1.css"
+          rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <link rel="stylesheet"
+          href="http://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CSource+Sans+Pro:200,300,regular,italic,600,700,900">
+    <script type="text/javascript">WebFont.load({
+  google: {
+    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Source Sans Pro:200,300,regular,italic,600,700,900"]
+  }
+});
+
+
+
+
+
+
+
+    </script>
+    <script src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript"></script>
+    <link href="https://daks2k3a4ib2z.cloudfront.net/577a17a71a78df7357099a96/577a17a71a78df7357099ab5_Favicon.png"
+          rel="shortcut icon" type="image/x-icon">
+    <link href="https://daks2k3a4ib2z.cloudfront.net/577a17a71a78df7357099a96/577a17a81a78df7357099af3_Webclip.png"
+          rel="apple-touch-icon">
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <title>Adapt English</title>
+
+<!-- Mobile Specific Meta
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/favicon.png' %}"/>
+
+<!-- CSS
+================================================== -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="{% static 'assets/plugins/themefisher-font/style.css' %}">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="{% static 'assets/plugins/lightbox2/dist/css/lightbox.min.css' %}">
+<!-- animation css -->
+<link rel="stylesheet" href="{% static 'assets/plugins/animate/animate.css' %}">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="{% static 'assets/plugins/slick/slick.css' %}">
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+<link rel="stylesheet" href="http://blankcorp.kr/include/header/force/header_inc.css">
+<link rel="stylesheet" href="http://blankcorp.kr/include/main/force/main_inc.css">
+<link rel="stylesheet" href="http://blankcorp.kr/include/footer/force/footer_inc.css">
+</head>
+
+<body id="body">
+
+
+<header class="navigation fixed-top sticky-header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- logo -->
+            <a class="navbar-brand logo" href="{% url 'index' %}">
+                <img class="logo-default" src="{%static 'assets/images/logo1.png' %}"/>
+                <img class="logo-white" src="{static 'assets/images/logo2.png %}"/>
+            </a>
+            <!-- /logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'service' %}">Interview class</a>
+                            <a class="dropdown-item" href="{% url 'business' %}">Business English</a>
+<!--                            <a class="dropdown-item" href="{% url 'personal' %}">Personal Customization English-->
+<!--                                class</a>-->
+                        </div>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'pricing' %}">Pricing</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /main nav -->
+    </div>
+</header>
+
+
+<!--
+Welcome Slider
+==================================== -->
+
+
+<!--
+Start About Section
+==================================== -->
+
+<section class="single-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Easy Pricing</h2>
+                <ol class="breadcrumb header-bradcrumb">
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about-2 section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title text-center">
+                    <h2>Interview Class Pricing</h2>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <div class="pricing-features-column w-col w-col-4" data-ix="fade-in-on-load"
+                 style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); display: block; transition: opacity 500ms ease 0s, transform 500ms ease 0s;">
+                <div class="features-pricing-block">
+                    <div class="first pricing-content-block">
+                        <div class="color-pricing-title">Basic Plan</div>
+                        <div class="pricing-price-title">￦70,000 (1회)</div>
+                    </div>
+                    <div class="pricing-content-block"><p class="pricing-decription"> Basic question+ Common question 제공
+                    </p></div>
+                    <div class="pricing-content-block">
+                        <ul class="feature-list w-list-unstyled">
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">1.15 hours on/off 라인 수업제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">현실적인 피드백 제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">기본적인 인터뷰 팁 제공</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-content-block"><a class="button pricing-start w-button"
+                                                          href="/contact/contact-3">Get Started!</a></div>
+                </div>
+            </div>
+            <div class="pricing-features-column w-col w-col-4" data-ix="fade-in-on-load-2"
+                 style="opacity: 1; display: block; transition: opacity 500ms ease 0s;">
+                <div class="features-pricing-block">
+                    <div class="first pricing-content-block">
+                        <div class="color-pricing-title">Advanced Plan</div>
+                        <div class="pricing-price-title">￦200,000 (3회)</div>
+                    </div>
+                    <div class="pricing-content-block"><p class="pricing-decription">Common question + Basic question +
+                        Behavioral question 제공
+                    </p></div>
+                    <div class="pricing-content-block">
+                        <ul class="feature-list w-list-unstyled">
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">1 hours on/off 라인 수업제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">수업 요약 스크립트 제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">회사 조사 및 인재상 파악</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">모범적인 답안 제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-content-block"><a class="button pricing-start w-button"
+                                                          href="/contact/contact-3">Get Started!</a></div>
+                </div>
+            </div>
+            <div class="pricing-features-column w-col w-col-4" data-ix="fade-in-on-load-3"
+                 style="opacity: 1; transition: opacity 500ms ease 0s;">
+                <div class="features-pricing-block">
+                    <div class="first pricing-content-block">
+                        <div class="color-pricing-title">Professional Plan</div>
+                        <div class="pricing-price-title">￦300,000 (5회)</div>
+                    </div>
+                    <div class="pricing-content-block"><p class="pricing-decription"> Common question + Basic question +
+                        Behavioral question + rhetorical question + technical questions + My story 제공</p></div>
+                    <div class="pricing-content-block">
+                        <ul class="feature-list w-list-unstyled">
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">1 hours on/off 라인 수업제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">수업 요약 스크립트 제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">회사 조사 및 인재상 파악</div>
+
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">차별화 인터뷰 전략 제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">돌발 질문 대처 방법 제공</div>
+                            </li>
+                            <li class="feature-list-item">
+                                <div class="bold pricing-feature-title">professional speech 하는 방법 제공</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-content-block"><a class="button pricing-start w-button"
+                                                          href="/contact/contact-3">Get Started!</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="call-to-action section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+            </div>
+        </div>        <!-- End row -->
+    </div>    <!-- End container -->
+</section>
+<section class="about-2 section" id="about">
+    <div class="container">
+        <div class="row">
+
+            <!-- section title -->
+            <section class="about-2 section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="title text-center">
+                                <h2>Business Class Pricing</h2>
+                                <div class="border"></div>
+                            </div>
+                        </div>
+                        <div class="pricing-features-column w-col w-col-4" data-ix="fade-in-on-load"
+                             style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); display: block; transition: opacity 500ms ease 0s, transform 500ms ease 0s;">
+                            <div class="features-pricing-block">
+                                <div class="first pricing-content-block">
+                                    <div class="color-pricing-title">Communication Class</div>
+                                    <div class="pricing-price-title">￦400,000 (1개월)</div>
+                                </div>
+                                <div class="pricing-content-block"><p class="pricing-decription"> 수업은 주 2회 1시간입니다.
+                                    방문수업/카폐/온라인 다 가능합니다.
+
+                                </p></div>
+                                <div class="pricing-content-block">
+                                    <ul class="feature-list w-list-unstyled">
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">수강증 제공해드립니다.</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">현금 영수증 제공해드립니다.</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">Homework및 vocabulary 제공</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">Document 및 PPT 제공</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-content-block"><a class="button pricing-start w-button"
+                                                                      href="/contact/contact-3">Get Started!</a></div>
+                            </div>
+                        </div>
+                        <div class="pricing-features-column w-col w-col-4" data-ix="fade-in-on-load-2"
+                             style="opacity: 1; display: block; transition: opacity 500ms ease 0s;">
+                            <div class="features-pricing-block">
+                                <div class="first pricing-content-block">
+                                    <div class="color-pricing-title">Presentation Class</div>
+                                    <div class="pricing-price-title">￦200,000 (1개월)</div>
+                                </div>
+                                <div class="pricing-content-block"><p class="pricing-decription">
+                                    수업은 주 2회 1시간입니다. 방문수업/카폐/온라인 다 가능합니다.
+                                </p></div>
+                                <div class="pricing-content-block">
+                                    <ul class="feature-list w-list-unstyled">
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">수강증 제공해드립니다.</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">현금 영수증 제공해드립니다.</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">Document 및 PPT 제공</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">Homework및 vocabulary 제공</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-content-block"><a class="button pricing-start w-button"
+                                                                      href="/contact/contact-3">Get Started!</a></div>
+                            </div>
+                        </div>
+                        <div class="pricing-features-column w-col w-col-4" data-ix="fade-in-on-load-3"
+                             style="opacity: 1; transition: opacity 500ms ease 0s;">
+                            <div class="features-pricing-block">
+                                <div class="first pricing-content-block">
+                                    <div class="color-pricing-title">E-mail Class</div>
+                                    <div class="pricing-price-title">￦400,000 (1개월)</div>
+                                </div>
+                                <div class="pricing-content-block"><p class="pricing-decription">
+                                    <p>수업은 주 2회 1시간입니다. 방문수업/카폐/온라인 다 가능합니다. </p></div>
+                                <div class="pricing-content-block">
+                                    <ul class="feature-list w-list-unstyled">
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">수강증 제공해드립니다.</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">현금 영수증 제공해드립니다.</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">Document 및 PPT 제공</div>
+
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title">Homework및 vocabulary 제공</div>
+                                        </li>
+                                        <li class="feature-list-item">
+                                            <div class="bold pricing-feature-title"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-content-block"><a class="button pricing-start w-button"
+                                                                      href="/contact/contact-3">Get Started!</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> <!-- End container -->
+</section>
+<div id="wrap_footer">
+
+
+    <div class="footer_t">
+        <div class="sns">
+<!--            <a href="https://www.facebook.com/blankcp/"><img-->
+<!--                    src="http://blankcorp.kr/include/footer/force/img/sns_f.jpg"></a>-->
+            <a href="https://www.instagram.com/eg_interview/"><img
+                    src="http://blankcorp.kr/include/footer/force/img/sns_i.jpg"></a>
+        </div>
+        <div class="footer_txt">
+            <p class="f-mark">Adapt English.</p>
+            <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+        </div>
+        <div class="footer_info">
+            <p class="f-mark">themelios01@gmail.com</p>
+            <p class="f-nb">서울시 마포구 효창목 5안길 18-2</p>
+            <p class="f-nb">Phone 010-5605-5479</p>
+        </div>
+        <div class="footer_txt m_block">
+            <p class="f-mark">Adapt English.</p>
+            <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>

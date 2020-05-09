@@ -1,0 +1,894 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Bingo One page parallax responsive HTML Template ">
+
+
+    <title>Adapt English</title>
+
+    <!-- Mobile Specific Meta
+      ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/favicon.png' %}"/>
+    <link rel="stylesheet" href="http://blankcorp.kr/include/header/force/header_inc.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/main/force/main_inc.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/footer/force/footer_inc.css">
+    <!-- CSS
+    ================================================== -->
+    <!-- Themefisher Icon font -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/themefisher-font/style.css' %}">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Lightbox.min css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/lightbox2/dist/css/lightbox.min.css' %}">
+    <!-- animation css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/animate/animate.css' %}">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/slick/slick.css' %}">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <style type="text/css">
+.sp-page-builder .page-content #section-id-1529908120737{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-top:0px;margin-right:0px;margin-bottom:30px;margin-left:0px;}#column-id-1529908120735{padding-top:10%;padding-right:10%;padding-bottom:10%;padding-left:10%;box-shadow:0 0 0 0 #fff;}@media (min-width:768px) and (max-width:991px) { #column-id-1529908120735{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;} }#sppb-addon-wrapper-1529908120740 {margin:0 0 30px 0;}#sppb-addon-1529908120740 {box-shadow:0 0 0 0 #ffffff;}#sppb-addon-1529908120740 .sppb-addon-title {margin-bottom:40px;font-size:55px;line-height:55px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1529908120740 {margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1529908120740 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1529908120740 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1529908120740{ font-size:22px;line-height:36px; }#sppb-addon-wrapper-1529929861011 {margin:80px 15% 0 15%;}#sppb-addon-1529929861011 {box-shadow:0 0 0 0 #ffffff;padding:0 0 0 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529929861011 {padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;}#sppb-addon-wrapper-1529929861011 {margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-1529929861011 {padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;}#sppb-addon-wrapper-1529929861011 {margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}}#sppb-addon-1529929861011 .sppb-addon-content { font-family:"Georgia"; }#sppb-addon-1529929861011{ font-size:34px; }@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529929861011{font-size:30px;}}@media (max-width:767px) {#sppb-addon-1529929861011{ font-size:30px; }}#sppb-addon-wrapper-1529929861045 {margin:0 15% 0 15%;}#sppb-addon-1529929861045 {box-shadow:0 0 0 0 #ffffff;border-width:8px;border-color:#72c2e0;border-style:solid;padding:0 0 0 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1529929861045 {margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1529929861045 {margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}}#sppb-addon-1529929861045 h3.sppb-addon-title {margin: ; padding: ; font-size:28px;line-height:40px;text-transform:none; }@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529929861045 h3.sppb-addon-title {margin: ; padding: ; }}@media (max-width:767px) {#sppb-addon-1529929861045 h3.sppb-addon-title {margin: ; padding: ; }}#sppb-addon-1529929861045 h3.type .ah-words-wrapper::after {border-right:3px solid #89898c;}#sppb-addon-1529929861045 h3.loading-bar .ah-words-wrapper::after {height:3px;}#sppb-addon-1529929861045 #headline-1529929861046{ font-family:Trebuchet MS; }#sppb-addon-1529929861045 h3.sppb-addon-title #headline-1529929861046, #sppb-addon-1529929861045 h3.sppb-addon-title #headline-1529929861046 i, #sppb-addon-1529929861045 h3.sppb-addon-title #headline-1529929861046 span, #sppb-addon-1529929861045 h3.sppb-addon-title #headline-1529929861046 b {color:#555}#sppb-addon-1529929861045 #headline-1529929861048{ font-family:Trebuchet MS; }.sp-page-builder .page-content #section-id-1532177200066{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}#column-id-1532177200067{padding-top:10%;padding-right:10%;padding-bottom:10%;padding-left:10%;box-shadow:0 0 0 0 #fff;}@media (min-width:768px) and (max-width:991px) { #column-id-1532177200067{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;} }#sppb-addon-wrapper-1532177200068 {margin:0 0 0 0;}#sppb-addon-1532177200068 {box-shadow:0 0 0 0 #ffffff;}#sppb-addon-1532177200068 .sppb-addon-title {margin-bottom:20px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532177200068 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532177200068 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532177200068 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532177200068 p{line-height:1.2em;}#sppb-addon-1532177200068{ font-size:20px;line-height:32px; }#sppb-addon-wrapper-1532177200069 {margin:0 0 30px 0;}#sppb-addon-1532177200069 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532177200069 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532177200069 {margin-top:40px;margin-right:0;margin-bottom:30px;margin-left:0;}}.sp-page-builder .page-content #section-id-1529908120791{padding-top:40px;padding-right:0;padding-bottom:60px;padding-left:0;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-color:#f5f5f5;background-image:url(/images/2018/07/13/patrick-tomasso-406271.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:0 0;}@media (min-width:768px) and (max-width:991px) { .sp-page-builder .page-content #section-id-1529908120791{padding-top:80px;padding-right:0;padding-bottom:80px;padding-left:0;} }@media (max-width:767px) { .sp-page-builder .page-content #section-id-1529908120791{padding-top:80px;padding-right:0;padding-bottom:80px;padding-left:0;} }.sp-page-builder .page-content #section-id-1529908120791 > .sppb-row-overlay {background-color:rgba(38, 35, 35, 0.8)}#column-id-1529908120792{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;box-shadow:0 0 0 0 #fff;}#column-wrap-id-1529908120792{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;}#sppb-addon-wrapper-1529908120793 {margin:0 0 0 0;}#sppb-addon-1529908120793 {box-shadow:0 0 0 0 #ffffff;padding:10% 10% 8% 10%;}#sppb-addon-1529908120793 .sppb-addon-title {margin-bottom:40px;color:#f9f9f9;font-size:55px;line-height:55px;line-height:70px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529908120793 .sppb-addon-title {font-size:55px;line-height:55px;line-height:65px;margin-bottom:60px;}#sppb-addon-wrapper-1529908120793 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1529908120793 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1529908120793 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1529908120793 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1529908120793 .txt-gray{color:#f9f9f9;}#sppb-addon-1529908120793{ font-size:22px;line-height:36px; }#sppb-addon-wrapper-1547615715879 {margin:0 0 90px 0;}#sppb-addon-1547615715879 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1547615715879 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1547615715879 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}.sp-page-builder .page-content #section-id-1532261515354{padding-top:40px;padding-right:0;padding-bottom:0;padding-left:0;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}@media (min-width:768px) and (max-width:991px) { .sp-page-builder .page-content #section-id-1532261515354{padding-top:40px;padding-right:0;padding-bottom:20px;padding-left:0;} }@media (max-width:767px) { .sp-page-builder .page-content #section-id-1532261515354{padding-top:40px;padding-right:0;padding-bottom:20px;padding-left:0;} }#column-id-1532261515355{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;box-shadow:0 0 0 0 #fff;}#column-wrap-id-1532261515355{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;}#sppb-addon-wrapper-1532261515356 {margin:0 0 0 0;}#sppb-addon-1532261515356 {box-shadow:0 0 0 0 #ffffff;padding:10% 10% 8% 10%;}#sppb-addon-1532261515356 .sppb-addon-title {margin-bottom:40px;color:#333333;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532261515356 .sppb-addon-title {font-size:55px;line-height:55px;line-height:65px;margin-bottom:50px;}#sppb-addon-wrapper-1532261515356 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532261515356 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1532261515356 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532261515356 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532261515356 p{line-height:1.2em;}#sppb-addon-1532261515356{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1532261515356{ font-size:20px;line-height:32px; }}.sp-page-builder .page-content #section-id-1532262675553{margin-top:0;margin-right:0;margin-bottom:160px;margin-left:0;}@media (max-width:767px) { .sp-page-builder .page-content #section-id-1532262675553{margin-top:0;margin-right:0;margin-bottom:100px;margin-left:0;} }#column-id-1532262675558{padding-top:20px;}#sppb-addon-1532262675559 .sppb-addon-title {margin-bottom:12px;}#sppb-addon-1532262675559 .sppb-icon {margin-top:3px;margin-bottom:20px;}#sppb-addon-1532262675559 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:15px;padding:15;color:#ffffff;background-color:#f14833;border-radius:5px;}#sppb-addon-1532262675559 .sppb-icon .sppb-icon-container > i {font-size:48px;width:48px;height:48px;line-height:48px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532262675559 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532262675559 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532262675559{transition:.3s;}#sppb-addon-1532262675559:hover{box-shadow:;}#sppb-addon-1532262675560 .sppb-divider {margin-top:40px;margin-bottom:40px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#eeeeee;}#sppb-addon-1532262675561 .sppb-addon-title {margin-bottom:12px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532262675561 {margin-bottom:40px;}}@media (max-width:767px) {#sppb-addon-wrapper-1532262675561 {margin-bottom:40px;}}#sppb-addon-1532262675561 .sppb-media-content {padding: ;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532262675561 .sppb-media-content {padding: ;}}@media (max-width:767px) {#sppb-addon-1532262675561 .sppb-media-content {padding: ;}}#sppb-addon-1532262675561 .sppb-icon {margin-top:3px;margin-bottom:20px;}#sppb-addon-1532262675561 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:15px;padding:15 0 0 0;color:#ffffff;background-color:#fca224;border-radius:5px;}#sppb-addon-1532262675561 .sppb-icon .sppb-icon-container > i {font-size:48px;width:48px;height:48px;line-height:48px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532262675561 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532262675561 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532262675561{transition:.3s;}#sppb-addon-1532262675561:hover{box-shadow:;}#column-id-1532262675564{padding-top:20px;}#sppb-addon-1532262675565 .sppb-addon-title {margin-bottom:12px;}#sppb-addon-1532262675565 .sppb-icon {margin-top:3px;margin-bottom:20px;}#sppb-addon-1532262675565 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:15px;padding:15;color:#ffffff;background-color:#22a9e1;border-radius:5px;}#sppb-addon-1532262675565 .sppb-icon .sppb-icon-container > i {font-size:48px;width:48px;height:48px;line-height:48px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532262675565 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532262675565 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532262675565{transition:.3s;}#sppb-addon-1532262675565:hover{box-shadow:;}#sppb-addon-1532262675566 .sppb-divider {margin-top:40px;margin-bottom:40px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#eeeeee;}#sppb-addon-1532262675567 .sppb-addon-title {margin-bottom:12px;}#sppb-addon-1532262675567 .sppb-media-content {padding: ;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532262675567 .sppb-media-content {padding: ;}}@media (max-width:767px) {#sppb-addon-1532262675567 .sppb-media-content {padding: ;}}#sppb-addon-1532262675567 .sppb-icon {margin-top:3px;margin-bottom:20px;}#sppb-addon-1532262675567 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:15px;padding:15 0 0 0;color:#ffffff;background-color:#16b99a;border-radius:5px;}#sppb-addon-1532262675567 .sppb-icon .sppb-icon-container > i {font-size:48px;width:48px;height:48px;line-height:48px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532262675567 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532262675567 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532262675567{transition:.3s;}#sppb-addon-1532262675567:hover{box-shadow:;}.sp-page-builder .page-content #section-id-1532308261421{padding-top:70px;padding-right:0;padding-bottom:140px;padding-left:0;margin-top:0px;margin-right:0px;margin-bottom:0;margin-left:0px;background-image:linear-gradient(45deg, #005bea 0%, #02b7e8 100%);}@media (min-width:768px) and (max-width:991px) { .sp-page-builder .page-content #section-id-1532308261421{padding-top:100px;padding-right:0;padding-bottom:100px;padding-left:0;} }@media (max-width:767px) { .sp-page-builder .page-content #section-id-1532308261421{padding-top:60px;padding-right:0;padding-bottom:100px;padding-left:0;} }#column-id-1532308261422{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1532308261423 {margin:0 0 0 0;}#sppb-addon-1532308261423 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;padding:10% 10% 0 10%;}#sppb-addon-1532308261423 .sppb-addon-title {margin-bottom:40px;color:#f9f9f9;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532308261423 .sppb-addon-title {font-size:55px;line-height:55px;line-height:65px;margin-bottom:60px;}#sppb-addon-wrapper-1532308261423 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532308261423 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1532308261423 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532308261423 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532308261423 p{line-height:1.2em;}#sppb-addon-1532308261423{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1532308261423{ font-size:20px;line-height:32px; }}#sppb-addon-1545870945412 {box-shadow:0 0 0 0 #ffffff;padding:0 10% 0 10%;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1545870945412 {padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;}#sppb-addon-wrapper-1545870945412 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1545870945412 {padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;}#sppb-addon-wrapper-1545870945412 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-wrapper-1532308261443 {margin:30px 0 80px 0;}#sppb-addon-1532308261443 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532308261443 {margin-top:30;margin-right:0;margin-bottom:60px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532308261443 {margin-right:0;margin-bottom:60px;margin-left:0;}}#sppb-addon-1532308261443 .sppb-addon-content { font-family:"Georgia"; }#sppb-addon-1532308261443{ font-size:40px;line-height:48px; }@media (max-width:767px) {#sppb-addon-1532308261443{ font-size:30px;line-height:40px; }}#sppb-addon-wrapper-1532308261456 {margin:0 0 30px 0;}#sppb-addon-1532308261456 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532308261456 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532308261456 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532308261456 .txt-white{color:#f9f9f9;}#sppb-addon-1532308261456 .sppb-addon-timeline .sppb-addon-timeline-wrapper:before, #sppb-addon-1532308261456 .sppb-addon-timeline .sppb-addon-timeline-wrapper .timeline-badge:after, #sppb-addon-1532308261456 .sppb-addon-timeline .timeline-movement.even:before{background-color:#0095eb;}#sppb-addon-1532308261456 .sppb-addon-timeline .sppb-addon-timeline-wrapper .timeline-badge:before, #sppb-addon-1532308261456 .sppb-addon-timeline .timeline-movement.even:after{border-color:#0095eb;}.sp-page-builder .page-content #section-id-1532308261429{padding-top:0px;padding-right:0px;padding-bottom:50px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:70px;margin-left:0px;}#column-id-1532308261427{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;box-shadow:0 0 0 0 #fff;}#column-wrap-id-1532308261427{margin-top:50px;margin-right:0;margin-bottom:0;margin-left:0;}#sppb-addon-wrapper-1532326382061 {margin:0 0 30px 0;}#sppb-addon-1532326382061 {box-shadow:0 0 0 0 #ffffff;padding:10% 10% 5% 10%;}#sppb-addon-1532326382061 .sppb-addon-title {margin-bottom:40px;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532326382061 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532326382061 {padding-top:10%;padding-right:5%;padding-bottom:10%;padding-left:5%;}#sppb-addon-1532326382061 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1532326382061 {margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;}}#sppb-addon-1532326382061 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532326382061{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1532326382061{ font-size:20px;line-height:32px; }}.sp-page-builder .page-content #section-id-1532329097131{padding-right:10%;padding-left:10%;}@media (max-width:767px) { .sp-page-builder .page-content #section-id-1532329097131{padding-right:5%;padding-left:5%;} }.sp-page-builder .page-content #section-id-1532329097131 > .sppb-row-overlay {background-color:rgba(255, 255, 255, 0.39)}#column-id-1532329097132{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;box-shadow:0 0 0 0 #fff;}#column-wrap-id-1532329097132{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;}#sppb-addon-wrapper-1532329097151 {margin:0 0 0 0;}#sppb-addon-1532329097151 {box-shadow:0 0 0 0 #ffffff;border-radius:5px;padding:0 0 0 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532329097151 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532329097151 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-wrapper-1532329097296 {margin:10px 0 30px 0;}#sppb-addon-1532329097296 {background-color:rgba(255, 206, 179, 0.75);box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#8e8e8e;border-style:solid;border-radius:5px;padding:30px 30px 30px 30px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532329097296 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532329097296 {padding-top:5%;padding-right:5%;padding-bottom:5%;padding-left:5%;}#sppb-addon-wrapper-1532329097296 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-wrapper-1532329097255 {margin:0 0 10px 0;}#sppb-addon-1532329097255 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532329097255 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532329097255 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532329097255 .sppb-icon-inner {margin: ;height:96px;width:96px;width:96px;}#sppb-addon-1532329097255 .sppb-icon-inner i {font-size:36px;line-height:96px;font-size:36px;}#sppb-addon-wrapper-1532329097329 {margin:0 0 0 0;}#sppb-addon-1532329097329 {box-shadow:0 0 0 0 #ffffff;border-radius:5px;padding:0 0 0 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532329097329 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532329097329 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-wrapper-1532329097207 {margin:10px 0 30px 0;}#sppb-addon-1532329097207 {background-color:rgba(172, 216, 253, 0.75);box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#8e8e8e;border-style:solid;border-radius:5px;padding:30px 30px 30px 30px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532329097207 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532329097207 {padding-top:5%;padding-right:5%;padding-bottom:5%;padding-left:5%;}#sppb-addon-wrapper-1532329097207 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}.sp-page-builder .page-content #section-id-1532500091392{padding-top:50px;padding-right:0px;padding-bottom:50px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-image:url(/images/2018/07/25/typing-hands-laptop.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:0 0;}.sp-page-builder .page-content #section-id-1532500091392 > .sppb-row-overlay {background-color:rgba(43, 43, 43, 0.79)}#column-id-1532500091391{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1532500091390 {margin:0 0 30px 0;}#sppb-addon-1532500091390 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;padding:10% 10% 5% 10%;}#sppb-addon-1532500091390 .sppb-addon-title {margin-bottom:40px;color:#f9f9f9;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532500091390 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532500091390 {padding-top:10%;padding-right:5%;padding-bottom:10%;padding-left:5%;}#sppb-addon-1532500091390 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1532500091390 {margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;}}#sppb-addon-1532500091390 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532500091390{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1532500091390{ font-size:20px;line-height:32px; }}.sp-page-builder .page-content #section-id-1532579252892{padding-top:0px;padding-right:0px;padding-bottom:30px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}#column-id-1532579252893{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1532579252903 {margin:0 0 30px 0;}#sppb-addon-1532579252903 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#cbecff;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579252903 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579252903 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579252903 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579252903 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579252903 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579252903 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579252903 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579252903{transition:.3s;}#sppb-addon-1532579252903:hover{box-shadow:;}#sppb-addon-wrapper-1532579253034 {margin:0 0 30px 0;}#sppb-addon-1532579253034 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#cbecff;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579253034 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579253034 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579253034 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579253034 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579253034 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579253034 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579253034 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579253034{transition:.3s;}#sppb-addon-1532579253034:hover{box-shadow:;}#sppb-addon-wrapper-1532579252914 {margin:0 0 30px 0;}#sppb-addon-1532579252914 {color:#f9f9f9;box-shadow:0px 0px 0px 0px #ffffff;border-width:1px;border-color:#cbecff;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579252914 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579252914 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579252914 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579252914 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579252914 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579252914 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579252914 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579252914{transition:.3s;}#sppb-addon-1532579252914:hover{box-shadow:;}#sppb-addon-wrapper-1532579253029 {margin:0 0 30px 0;}#sppb-addon-1532579253029 {color:#f9f9f9;box-shadow:0px 0px 0px 0px #ffffff;border-width:1px;border-color:#ececec;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579253029 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579253029 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579253029 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579253029 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579253029 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579253029 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579253029 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579253029{transition:.3s;}#sppb-addon-1532579253029:hover{box-shadow:;}#sppb-addon-wrapper-1532579252919 {margin:0 0 30px 0;}#sppb-addon-1532579252919 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#cbecff;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579252919 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579252919 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579252919 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579252919 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579252919 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579252919 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579252919 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579252919{transition:.3s;}#sppb-addon-1532579252919:hover{box-shadow:;}#sppb-addon-wrapper-1532579253024 {margin:0 0 30px 0;}#sppb-addon-1532579253024 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#ececec;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579253024 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579253024 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579253024 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579253024 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579253024 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579253024 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579253024 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579253024{transition:.3s;}#sppb-addon-1532579253024:hover{box-shadow:;}#sppb-addon-wrapper-1532579252924 {margin:0 0 30px 0;}#sppb-addon-1532579252924 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#cbecff;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579252924 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579252924 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579252924 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579252924 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579252924 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579252924 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579252924 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579252924{transition:.3s;}#sppb-addon-1532579252924:hover{box-shadow:;}#sppb-addon-wrapper-1532579253019 {margin:0 0 30px 0;}#sppb-addon-1532579253019 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#ececec;border-style:dotted;padding:35px 20px 35px 20px;}#sppb-addon-1532579253019 .sppb-addon-title {color:#f9f9f9;font-size:23px;line-height:23px;line-height:26px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532579253019 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532579253019 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1532579253019 .sppb-icon .sppb-icon-container {box-shadow:;display:inline-block;text-align:center;padding:0;color:#f9f9f9;}#sppb-addon-1532579253019 .sppb-icon .sppb-icon-container > i {font-size:36px;width:36px;height:36px;line-height:36px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1532579253019 .sppb-media .sppb-media-body {width:auto;}}@media (max-width:767px) {#sppb-addon-1532579253019 .sppb-media .sppb-media-body {width:auto;}}#sppb-addon-1532579253019{transition:.3s;}#sppb-addon-1532579253019:hover{box-shadow:;}#sppb-addon-wrapper-1542168508661 {margin:0 0 40px 0;}#sppb-addon-1542168508661 {box-shadow:0 0 0 0 #ffffff;padding:0 0 50px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1542168508661 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1542168508661 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}.sp-page-builder .page-content #section-id-1532500091456{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1532500091455{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1532500091459 {margin:0 0 30px 0;}#sppb-addon-1532500091459 {box-shadow:0 0 0 0 #ffffff;padding:10% 10% 5% 10%;}#sppb-addon-1532500091459 .sppb-addon-title {margin-bottom:40px;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532500091459 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532500091459 {padding-top:10%;padding-right:5%;padding-bottom:10%;padding-left:5%;}#sppb-addon-1532500091459 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1532500091459 {margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;}}#sppb-addon-1532500091459 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532500091459{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1532500091459{ font-size:20px;line-height:32px; }}.sp-page-builder .page-content #section-id-1532596836774{padding-top:0px;padding-right:0px;padding-bottom:50px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:40px;margin-left:0px;}#column-id-1532596836775{box-shadow:0 0 0 0 #fff;}#sppb-addon-1532742723075 .sppb-flipbox-front {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-3.jpg);}#sppb-addon-1532742723075 .threeD-flip-front {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-3.jpg);}#sppb-addon-1532742723075 .sppb-flipbox-back {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-4.jpg);color:#ffffff;}#sppb-addon-1532742723075 .threeD-flip-back {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-4.jpg);color:#ffffff;}#sppb-addon-1532742723075 .threeD-flip-front:before{background-color:rgba(255, 255, 255, 0.2);}#sppb-addon-1532742723075 .sppb-flipbox-front.flip-box:before{background-color:rgba(255, 255, 255, 0.2);}#sppb-addon-1532742723075 .threeD-flip-back:before{background-color:rgba(64, 64, 64, 0.52);}#sppb-addon-1532742723075 .sppb-flipbox-back.flip-box:before{background-color:rgba(64, 64, 64, 0.52);}#sppb-addon-wrapper-1546220824740 {margin:10px 0 0 0;}#sppb-addon-1546220824740 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1546220824740 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1546220824740 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-modal-1546220824740.white-popup-block {max-width:760px; height:440px;}#sppb-addon-1532742723084 .sppb-flipbox-front {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-5.jpg);}#sppb-addon-1532742723084 .threeD-flip-front {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-5.jpg);}#sppb-addon-1532742723084 .sppb-flipbox-back {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-6.png);color:#ffffff;}#sppb-addon-1532742723084 .threeD-flip-back {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-6.png);color:#ffffff;}#sppb-addon-1532742723084 .threeD-flip-front:before{background-color:rgba(255, 255, 255, 0.2);}#sppb-addon-1532742723084 .sppb-flipbox-front.flip-box:before{background-color:rgba(255, 255, 255, 0.2);}#sppb-addon-1532742723084 .threeD-flip-back:before{background-color:rgba(64, 64, 64, 0.52);}#sppb-addon-1532742723084 .sppb-flipbox-back.flip-box:before{background-color:rgba(64, 64, 64, 0.52);}#sppb-addon-wrapper-1546213084093 {margin:10px 0 0 0;}#sppb-addon-1546213084093 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1546213084093 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1546213084093 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-modal-1546213084093.white-popup-block {max-width:760px; height:440px;}#sppb-addon-1532596836781 .sppb-flipbox-front {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-1.jpg);}#sppb-addon-1532596836781 .threeD-flip-front {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-1.jpg);}#sppb-addon-1532596836781 .sppb-flipbox-back {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-2.jpg);color:#ffffff;}#sppb-addon-1532596836781 .threeD-flip-back {background-image:url(https://www.koreanenglish.org/images/2018/07/28/daniel-lesson-2.jpg);color:#ffffff;}#sppb-addon-1532596836781 .threeD-flip-front:before{background-color:rgba(255, 255, 255, 0.2);}#sppb-addon-1532596836781 .sppb-flipbox-front.flip-box:before{background-color:rgba(255, 255, 255, 0.2);}#sppb-addon-1532596836781 .threeD-flip-back:before{background-color:rgba(64, 64, 64, 0.52);}#sppb-addon-1532596836781 .sppb-flipbox-back.flip-box:before{background-color:rgba(64, 64, 64, 0.52);}#sppb-addon-wrapper-1546224946390 {margin:10px 0 0 0;}#sppb-addon-1546224946390 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1546224946390 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1546224946390 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-modal-1546224946390.white-popup-block {max-width:760px; height:440px;}.sp-page-builder .page-content #section-id-1532675591396{padding-top:40px;padding-right:0px;padding-bottom:50px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-image:url(/images/2018/07/27/big-crowd-big-claps.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:50% 100%;}.sp-page-builder .page-content #section-id-1532675591396 > .sppb-row-overlay {background-color:rgba(43, 43, 43, 0.79)}#column-id-1532675591397{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1532675591398 {margin:0 0 30px 0;}#sppb-addon-1532675591398 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;padding:10% 10% 5% 10%;}#sppb-addon-1532675591398 .sppb-addon-title {margin-bottom:40px;color:#f9f9f9;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532675591398 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532675591398 {padding-top:10%;padding-right:5%;padding-bottom:10%;padding-left:5%;}#sppb-addon-1532675591398 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1532675591398 {margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;}}#sppb-addon-1532675591398 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1532675591398{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1532675591398{ font-size:20px;line-height:32px; }}#sppb-addon-wrapper-1532675591418 {margin:0px 20px 30px 20px;}#sppb-addon-1532675591418 {color:#f9f9f9;box-shadow:0 0 0 0 #ffffff;border-width:1px;border-color:#fde3fd;border-style:dotted;padding:20px 40px 20px 40px;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532675591418 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1532675591418 {padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;}#sppb-addon-wrapper-1532675591418 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}#sppb-addon-1532675591418 .sppb-carousel-inner .sppb-media img.sppb-img-circle {width:120px;height:120px;object-fit:cover;border-radius:50%;}#sppb-addon-wrapper-1532675591443 {margin:0 0 80px 0;}#sppb-addon-1532675591443 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1532675591443 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1532675591443 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}.sp-page-builder .page-content #section-id-1533617283904{padding-top:50px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}#column-id-1533617283905{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1533617283906 {margin:0 0 30px 0;}#sppb-addon-1533617283906 {box-shadow:0 0 0 0 #ffffff;padding:10% 10% 5% 10%;}#sppb-addon-1533617283906 .sppb-addon-title {margin-bottom:40px;font-size:55px;line-height:55px;line-height:65px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1533617283906 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1533617283906 {padding-top:10%;padding-right:5%;padding-bottom:10%;padding-left:5%;}#sppb-addon-1533617283906 .sppb-addon-title {font-size:40px;line-height:40px;line-height:48px;}#sppb-addon-wrapper-1533617283906 {margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;}}#sppb-addon-1533617283906 .sppb-addon-title { font-family:"Roboto"; }#sppb-addon-1533617283906{ font-size:22px;line-height:36px; }@media (max-width:767px) {#sppb-addon-1533617283906{ font-size:20px;line-height:32px; }}.sp-page-builder .page-content #section-id-1533617283978{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}#column-id-1533617283979{box-shadow:0 0 0 0 #fff;}#sppb-addon-1533619916365 .sppb-progress {height:24px;}#sppb-addon-1533619916365 .sppb-progress-bar {line-height:24px;}#sppb-addon-1533619916365 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533619916365 .flex-text-wrapper {color:;}#sppb-addon-1533619916365 .sppb-progress-bar {background-color:#e02020;}#sppb-addon-1533619916324 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533619916364 .sppb-progress {height:20px;}#sppb-addon-1533619916364 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533619916364 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533619916364 .flex-text-wrapper {color:;}#sppb-addon-1533619916364 .sppb-progress-bar {background-color:#ff4f4f;}#sppb-addon-1533621378549 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533621378603 .sppb-progress {height:20px;}#sppb-addon-1533621378603 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533621378603 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533621378603 .flex-text-wrapper {color:;}#sppb-addon-1533621378603 .sppb-progress-bar {background-color:#ff6b6b;}#sppb-addon-1533621378554 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533619916343 .sppb-progress {height:20px;}#sppb-addon-1533619916343 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533619916343 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533619916343 .flex-text-wrapper {color:;}#sppb-addon-1533619916343 .sppb-progress-bar {background-color:#1c6fc1;}#sppb-addon-1533621378564 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533621378559 .sppb-progress {height:20px;}#sppb-addon-1533621378559 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533621378559 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533621378559 .flex-text-wrapper {color:;}#sppb-addon-1533621378559 .sppb-progress-bar {background-color:#4fa8ff;}#sppb-addon-1533621378574 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533621378569 .sppb-progress {height:20px;}#sppb-addon-1533621378569 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533621378569 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533621378569 .flex-text-wrapper {color:;}#sppb-addon-1533621378569 .sppb-progress-bar {background-color:#6bcaff;}#sppb-addon-1533621378584 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533621378579 .sppb-progress {height:20px;}#sppb-addon-1533621378579 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533621378579 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533621378579 .flex-text-wrapper {color:;}#sppb-addon-1533621378579 .sppb-progress-bar {background-color:#56dc8a;}#sppb-addon-1533621378589 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1533621378594 .sppb-progress {height:20px;}#sppb-addon-1533621378594 .sppb-progress-bar {line-height:20px;}#sppb-addon-1533621378594 .sppb-progress-bar{-webkit-transition:2s ease;transition:2s ease;}#sppb-addon-1533621378594 .flex-text-wrapper {color:;}#sppb-addon-1533621378594 .sppb-progress-bar {background-color:#86eaad;}.sp-page-builder .page-content #section-id-1529977734441{padding-top:50px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:50px;margin-right:0px;margin-bottom:-51px;margin-left:0px;}#column-id-1529977734442{padding-top:150px;padding-right:0px;padding-bottom:150px;padding-left:0px;box-shadow:0px 0px 0px 0px #fff;background-image:url(/images/2018/08/09/joshua-time-to-start.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:0 0;}#column-wrap-id-1529977734442{margin-top:50px;margin-right:0px;margin-bottom:50px;margin-left:0px;}#column-id-1529977734442 > .sppb-column-overlay {background-color:rgba(76, 76, 76, 0.65)}#sppb-addon-wrapper-1529977734443 {margin:0 0 0 0;}#sppb-addon-1529977734443 {box-shadow:0 0 0 0 #ffffff;padding:0 10% 10% 10%;}#sppb-addon-1529977734443 .sppb-addon-title {margin-bottom:40px;color:#f9f9f9;font-size:40px;line-height:40px;line-height:50px;font-weight:600;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1529977734443 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1529977734443 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1529977734443 .sppb-addon-title { font-family:"Georgia"; }#sppb-addon-1529977734443 p{line-height:1.2em;}#sppb-addon-1529977734443 H1{font-weight:600;}#sppb-addon-1529977734443{ font-size:20px;line-height:32px; }#sppb-addon-1533787591513 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-wrapper-1533617283901 {margin:0 0 30px 0;}#sppb-addon-1533617283901 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1533617283901 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-wrapper-1533617283901 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1533617283901 .sppb-addon-content {margin:-5px;}#sppb-addon-1533617283901 .sppb-addon-content .sppb-btn {margin:5px;}
+body.site {background-color:#ffffff;}
+body{font-family:Open Sans, sans-serif; font-size:16px; font-weight:normal; }
+.sp-megamenu-parent{font-family:Open Sans, sans-serif; font-size:15px; font-weight:normal; }
+#sp-top-bar{ background-color:#3d3d3d;color:#d4d4d4;padding:8px 0 4px 0; }
+#sp-top-bar a{color:#b3b3b3;}
+#sp-top-bar a:hover{color:#d1d1d1;}
+#sp-header{ background-color:#303030;color:#f0f0f0; }
+#sp-header a{color:#ededed;}
+#sp-header a:hover{color:#ffffff;}
+#sp-footer{ background-color:#363839;color:#b0b0b0; }
+#sp-footer a{color:#d6d6d6;}
+#sp-footer a:hover{color:#f0f0f0;}
+.offcanvas-menu{}.offcanvas-menu ul li a{color: }.offcanvas-menu .offcanvas-inner .search input.inputbox{border-color: }
+#sp-header .top-search-wrapper .icon-top-wrapper,#sp-header .top-search-wrapper .icon-top-wrapper >i:before,.sp-megamenu-wrapper > .sp-megamenu-parent >li >a,.sp-megamenu-wrapper #offcanvas-toggler,#sp-header .modal-login-wrapper span,#sp-header .ap-my-account i.pe-7s-user,#sp-header .ap-my-account .info-text,#sp-header .mod-languages,.logo,#cart-menu,#cd-menu-trigger,.cd-cart,.cd-cart > i{height:90px;line-height:90px;}.total_products{top:calc(90px / 2 - 22px);}#sp-header,.transparent-wrapper{height:90px;}.transparent,.sticky-top{}#sp-header #sp-menu .sp-megamenu-parent >li >a,#sp-header #sp-menu .sp-megamenu-parent li .sp-dropdown >li >a,#sp-header .top-search-wrapper .icon-top-wrapper i,#sp-header #cd-menu-trigger i,#sp-header .cd-cart i,#sp-header .top-search-wrapper{}#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner{}#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner li.sp-menu-item >a,#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner li.sp-menu-item.separator >a,#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner li.sp-menu-item.separator >a:hover,#sp-header .sp-module-content ul li a,#sp-header .vm-menu .vm-title{}.sticky .logo,.sticky #cart-menu,.sticky #cd-menu-trigger,.sticky .cd-cart,.sticky .cd-cart >i,.sticky .menu-is-open >i,#sp-header.sticky .modal-login-wrapper span,#sp-header.sticky .ap-my-account i.pe-7s-user,#sp-header.sticky .ap-my-account .info-text,#sp-header.sticky .mod-languages,#sp-header.sticky .top-search-wrapper .icon-top-wrapper,#sp-header.sticky .top-search-wrapper .icon-top-wrapper >i:before,.sticky .sp-megamenu-wrapper > .sp-megamenu-parent >li >a,.sticky .sp-megamenu-wrapper #offcanvas-toggler,.sticky #sp-logo a.logo{ height:70px;line-height:70px; } .sticky .total_products{top: calc(70px / 2 - 22px);} .sticky .sticky__wrapper{ height:70px; -webkit-animation-name:fade-in-down;animation-name:fade-in-down;}.sticky .sticky__wrapper .sp-sticky-logo {height:70px;}.sticky.onepage .sticky__wrapper,.sticky.white .sticky__wrapper,.sticky.transparent .sticky__wrapper{} #sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li >a,#sp-header.sticky .top-search-wrapper,#sp-header.sticky .top-search-wrapper .icon-top-wrapper i,#sp-header.sticky #cd-menu-trigger i,#sp-header.sticky .cd-cart i{;}#sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li.active>a,#sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li.current-item>a,#sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li.sp-has-child.active>a,.sticky #offcanvas-toggler >i,.sticky #offcanvas-toggler >i:hover{color:;}
+p {margin-bottom: 1.6em;line-height:1.9em;}
+ul, ol {line-height:2.3em;}
+.entry-header h2 {line-height: 1.4em;}
+.entry-header.has-post-format {margin-bottom: 2.8em;}
+
+.jcomments-links {margin-bottom: 20px;}
+.pagination {font-size: 14px;}
+
+/*englishpump video lesson style*/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+
+
+    </style>
+
+</head>
+
+<body id="body">
+
+
+<!--
+Fixed Navigation
+==================================== -->
+<header class="navigation fixed-top sticky-header">
+    <div class="container">
+        <!-- main nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- logo -->
+            <a class="navbar-brand logo" href="{% url 'index' %}">
+                <img class="logo-default" src="{%static 'assets/images/logo1.png' %}"/>
+                <img class="logo-white" src="{static 'assets/images/logo2.png %}"/>
+            </a>
+            <!-- /logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'service' %}">Interview class</a>
+                            <a class="dropdown-item" href="{% url 'business' %}">Business English</a>
+                            <!--                            <a class="dropdown-item" href="{% url 'personal' %}">Personal Customization English-->
+                            <!--                                class</a>-->
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'pricing' %}">Pricing</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /main nav -->
+    </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+<section class="single-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Our Services</h2>
+                <ol class="breadcrumb header-bradcrumb">
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about-2 section">
+    <div class="container">
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-12">
+                <div class="title text-center">
+                    <h1>For Who</h1>
+                    <p>이러한 고민이 있으신 분들을 위한 클래스 입니다.</p>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+
+            <div class="col-md-6">
+                <ul class="checklist">
+                    <li>
+                        <h4>회의에서 어떻게 의견을 말해야 할지 모르시는 분 </h4>
+                    </li>
+                    <li>
+
+                        <h4>커리어를 위해서 비지니스 영어 공부가 필요하신 분</h4>
+                    </li>
+                    <li>
+
+                        <h4>업무상 비니지스 영어를 사용해야 하시는 분</h4>
+                    </li>
+
+                    <li>
+
+
+                        <h4>영문 이메일,컨프런스 콜,프레젠텐이션 글로벌회사에 일 하시는 분</h4>
+                    </li>
+
+                </ul>
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</section> <!-- End section -->
+
+<section class="service-2 section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <!-- section title -->
+                <div class="title text-center">
+                    <h2>What Do We Offer</h2>
+                    <div class="border"></div>
+                </div>
+            </div>
+        </div><!-- END COL -->
+
+
+        <div class="col-md-12">
+            <div class="service-item">
+                <div class="panel-pane pane-views-panes pane-binder-resources-panel-pane-5 binder-resources closed">
+
+                    <div class="title-row">
+                        <div class="row">
+                            <h2 class="pane-title"><span class="icon">Communication class (12 week courses) </span></h2>
+                        </div>
+                    </div>
+
+
+                    <div class="pane-content">
+                        <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                        </div>
+                        </span></div>
+                </div>
+                <div class="views-row views-row-1">
+
+                    <a class="arrow arrow-expand" href=""></a>
+                    <div class="views-field views-field-field-resource-icon">
+                        <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                        src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                        width="50" height="50"></div>
+                    </div>
+                    <div class="views-field views-field-field-resource-description hide">
+                        <div class="field-content"> 비즈니스 인맥을 쌓고, 외국인 본사 직원과 소통하고, 새로운 계약을 성사시키기 위한 스몰톡 주제와 의사소통 전략 등을
+                            학습하고 싶으신 분
+                        </div>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="field-content">일상적인 대화를 넘어 심도있는 주제에 대해 자신의 생각을 유창하고 효율적으로 표현하고 싶으신 분
+
+
+                        </div>
+                    </div>
+                    <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                    src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                    width="50" height="50"></div>
+                    <div class="views-field views-field-php resource-content hide">        <span class="field-content"><div
+                            class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+                    </div>
+ <div class="field-content">비즈니스 매너를 갖춘 실무 필수 표현을 활용해 컨퍼런스콜, 업무 회의에서 원활하게 커뮤니케이션 할 수 있습니다.
+
+
+                        </div>
+                    </div>
+                    <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                    src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                    width="50" height="50"></div>
+                    <div class="views-field views-field-php resource-content hide">        <span class="field-content"><div
+                            class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+                    </div>
+
+
+                     <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne_writing" aria-expanded="true"
+                aria-controls="collapseOne_writing">
+         1) Nonverbal Communication ( 4 week courses)
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne_writing" class="collapse show" aria-labelledby="headingOne_writing" data-parent="#accordion">
+      <div class="card-body">
+                                 <ul>
+                                1) Unit 1 Engaging an audience through gesture
+                                 </ul>
+                            <ul>
+                                    2) Unit 2 Understand body language
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Understand facial expressions.
+                                </ul>
+           <ul>
+                                    4) Unit 4 Understand Eye contact,Touch, Space
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo__writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo_writing"
+                aria-expanded="false"
+                aria-controls="collapseTwo_writing">
+            2) Clarity and Cohesion ( 4 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo_writing" class="collapse" aria-labelledby="headingTwo_writing" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                      1) Unit 1 analogy or Metaphor
+                            <ul>
+                                    2) Unit 2 Empathizing
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Empathy
+                                </ul>
+                                <ul>
+                                    4) Unit 4 Friendliness
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree_writing"
+                aria-expanded="false"
+                aria-controls="collapseThree_writing">
+           3) How to persuade someone  ( 4 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree_writing" class="collapse" aria-labelledby="headingThree_writing" data-parent="#accordion">
+      <div class="card-body">
+               <ul>
+                                1) Unit 1 explain why you are quality
+                            <ul>
+                                    2) Unit 2 How to be likeable person
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Reciprocity other person
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 The Rule of Social proof
+                                </ul>
+      </div>
+    </div>
+  </div>
+</div>
+                    <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                    src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                    width="50" height="50"></div>
+                    </span></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="service-item">
+                    <div class="panel-pane pane-views-panes pane-binder-resources-panel-pane-5 binder-resources closed">
+
+                        <div class="title-row">
+                            <div class="row">
+                                <h2 class="pane-title"><span class="icon">Presentation class (6 week courses) </span>
+                                </h2>
+                            </div>
+                        </div>
+
+
+                        <div class="pane-content">
+                            <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                            </div>
+                            </span></div>
+                    </div>
+                    <div class="views-row views-row-1">
+
+                        <a class="arrow arrow-expand" href=""></a>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-description hide">
+                            <div class="field-content">업무상 영어로 프레젠테이션을 진행해야 하는 직장인
+                            </div>
+                            <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                            <div class="field-content">짧은 시간 내에 핵심 프레젠테이션 영어를 학습하고자 하는 직장인
+                            </div>
+                        </div>
+                        <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                        src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                        width="50" height="50"></div>
+                        <div class="views-field views-field-php resource-content hide">        <span
+                                class="field-content"><div
+                                class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+                    </div>
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+          1) Storytelling (2 week courses)
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                1) Unit 1 know your goal of storytelling
+                            <ul>
+                                    2) Unit 2 Metaphor or analogy start with
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Make Strong thesis
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Don't give facts or figures
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+          2) Structure of presentation (2 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                1) Unit 1 Start with end in mind
+                            <ul>
+                                    2) Unit 2 Choose the story to start
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Make an outline
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Remember presentation
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+          3) Effective Presentation Delivery (2 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                1) Unit 1 Preliminary Presentation
+                            <ul>
+                                    2) Unit 2 understand Why How What (Golden circle)
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Tactics for presenting story
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Deconstruct and reconstruct the images
+                                </ul>
+      </div>
+    </div>
+  </div>
+</div>
+                </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="service-item">
+                    <div class="panel-pane pane-views-panes pane-binder-resources-panel-pane-5 binder-resources closed">
+
+                        <div class="title-row">
+                            <div class="row">
+                                <h2 class="pane-title"><span class="icon">E-mail class (12 week courses)  </span></h2>
+                            </div>
+                        </div>
+
+
+                        <div class="pane-content">
+                            <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="views-row views-row-1">
+
+                        <a class="arrow arrow-expand" href=""></a>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-description hide">
+                            <div class="field-content">업무관련 서신교환, 고객관리, 항의&경고, 사과, meeting 공지, 주문하기(orders) 등
+
+                                실질적으로 꼭 필요한 다양한 메일 주제들을 바탕으로 학습합니다.
+                            </div>
+                            <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                            <div class="field-content">일반적인 E-mail에 쓰이는 formal & informal expressions를 학습합니다.
+                            </div>
+                            <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                            <div class="field-content">Business 관련 서신에 쓰이는 구성방식과 다양한 표현을 습득합니다.
+
+
+                            </div>
+                        </div>
+                        <div class="views-field views-field-php resource-content hide">        <span
+                                class="field-content"><div
+                                class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+
+
+</div>
+                             <div class="pane-content">
+                            <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                            </div>
+                                     <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                                     <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+
+            <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne_writing" aria-expanded="true"
+                aria-controls="collapseOne_writing">
+         1) Writing Letters ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne_writing" class="collapse show" aria-labelledby="headingOne_writing" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                 <ul>
+                                1) Unit 1 Structure of letters
+                            <ul>
+                                    2) Unit 2 Correct salutations, titles and punctuation
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Correspondence
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Language of letters
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo__writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo_writing"
+                aria-expanded="false"
+                aria-controls="collapseTwo_writing">
+            2) Writing Emails ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo_writing" class="collapse" aria-labelledby="headingTwo_writing" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                      1) Unit 1 Structure of emails
+                            <ul>
+                                    2) Unit 2 Structure of emails
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Punctuation in emails
+                                </ul>
+                                </ul>
+                                <ul>
+                                    4) Unit 4 Language of Emails
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree_writing"
+                aria-expanded="false"
+                aria-controls="collapseThree_writing">
+           3) Writing Reports ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree_writing" class="collapse" aria-labelledby="headingThree_writing" data-parent="#accordion">
+      <div class="card-body">
+               <ul>
+                                1) Unit 1 Structure of reports - planning
+                            <ul>
+                                    2) Unit 2 Structure of reports - layout
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Structure of reports - reports sections
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Language of reports
+                                </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+    <div class="card-header" id="headingfour_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour_writing"
+                aria-expanded="false"
+                aria-controls="collapsefour_writing">
+          4) Correspondence ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapsefour_writing" class="collapse" aria-labelledby="headingfour_writing" data-parent="#accordion">
+      <div class="card-body">
+                     <ul>
+                                1) Unit 1 Asking for advice
+                            <ul>
+                                    2) Unit 2 Asking for clarification
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Asking for confirmation
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Asking for information
+                                </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+    </span></div>
+                        <div class="views-field views-field-php resource-content hide">        <span
+                                class="field-content"><div
+                                class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+</div>
+                </span>
+                        </div>
+                    </div>
+                </div>
+
+
+</section>
+
+<section class="about-2 section">
+    <div class="container">
+        <div class="row">
+            <!-- section title -->
+            <div class="col-md-12" id="column-wrap-id-1533617283905">
+                <div id="column-id-1533617283905" class="sppb-column">
+                    <div class="sppb-column-addons">
+                        <div class="sppb-addon sppb-addon-text-block sppb-text-center "><h1
+                                class="sppb-addon-title">What You Expect To Improve</h1>
+                            <div class="sppb-addon-content"> 학습 과정을 통해 어떤 결과를 얻을 수 있을까요?</div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="section-id-1533617283978" class="sppb-section">
+                    <div class="sppb-container-inner">
+                        <div class="sppb-row">
+                            <div class="sppb-col-md-3" id="column-wrap-id-1533617283979">
+                                <div id="column-id-1533617283979" class="sppb-column">
+                                    <div class="sppb-column-addons"></div>
+                                </div>
+                            </div>
+                            <div class="sppb-col-md-6" id="column-wrap-id-1533617283981">
+                                <div id="column-id-1533617283981" class="sppb-column">
+                                    <div class="sppb-column-addons">
+                                        <div id="sppb-addon-wrapper-1533619916365" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533619916365" class="clearfix ">
+                                                <div class="progress-bar progress-bar-striped bg-warning">
+                                                    <div class="flex-text">영어문장 구성 능력 향상</div>
+                                                    <div class="flex-progress-text">98%</div>
+                                                </div>
+                                                <div class="sppb-progress ">
+                                                    <div style="min-width: 0px; width: 98%;"
+                                                         class="sppb-progress-bar flex sppb-progress-bar-striped active"
+                                                         role="progressbar" aria-valuenow="98" aria-valuemin="0"
+                                                         aria-valuemax="100" data-width="98%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533619916324" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533619916324" class="clearfix ">
+                                                <div class="sppb-empty-space  clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533619916364" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533619916364" class="clearfix ">
+                                                <div class="progress-bar progress-bar-striped bg-danger">
+                                                    <div class="flex-text">빠른 사고력 향상</div>
+                                                    <div class="flex-progress-text">95%</div>
+                                                </div>
+                                                <div class="sppb-progress ">
+                                                    <div style="min-width: 0px; width: 95%;"
+                                                         class="sppb-progress-bar flex sppb-progress-bar-striped active"
+                                                         role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                                         aria-valuemax="100" data-width="95%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533621378549" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533621378549" class="clearfix ">
+                                                <div class="sppb-empty-space  clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533621378603" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533621378603" class="clearfix ">
+                                                <div class="progress-bar progress-bar-striped bg-info">
+                                                    <div class="flex-text">영어식 사고 능력 향상</div>
+                                                    <div class="flex-progress-text">92%</div>
+                                                </div>
+                                                <div class="sppb-progress ">
+                                                    <div style="min-width: 0px; width: 92%;"
+                                                         class="sppb-progress-bar flex sppb-progress-bar-striped active"
+                                                         role="progressbar" aria-valuenow="92" aria-valuemin="0"
+                                                         aria-valuemax="100" data-width="92%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533621378554" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533621378554" class="clearfix ">
+                                                <div class="sppb-empty-space  clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533619916343" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533619916343" class="clearfix ">
+                                                <div class="progress-bar progress-bar-striped bg-success">
+                                                    <div class="flex-text">영어말하기 능력 향상</div>
+                                                    <div class="flex-progress-text">90%</div>
+                                                </div>
+                                                <div class="sppb-progress ">
+                                                    <div style="min-width: 0px; width: 90%;"
+                                                         class="sppb-progress-bar flex sppb-progress-bar-striped active"
+                                                         role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                                         aria-valuemax="100" data-width="90%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533621378564" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533621378564" class="clearfix ">
+                                                <div class="sppb-empty-space  clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div id="sppb-addon-wrapper-1533621378559" class="sppb-addon-wrapper">
+                                            <div id="sppb-addon-1533621378559" class="clearfix ">
+                                                <div class="progress-bar progress-bar-striped">
+                                                    <div class="flex-text">영어글쓰기 능력 향상</div>
+                                                    <div class="flex-progress-text">90%</div>
+                                                </div>
+                                                <div class="sppb-progress ">
+                                                    <div style="min-width: 0px; width: 90%;"
+                                                         class="sppb-progress-bar flex sppb-progress-bar-striped active"
+                                                         role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                                         aria-valuemax="100" data-width="90%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sppb-col-md-3" id="column-wrap-id-1533617283993">
+                        <div id="column-id-1533617283993" class="sppb-column">
+                            <div class="sppb-column-addons"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+<section class="call-to-action section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Let's Create Something Together</h2>
+                <a href="" class="btn btn-main">Contact Us</a>
+            </div>
+        </div>        <!-- End row -->
+    </div>    <!-- End container -->
+</section>   <!-- End section -->
+
+<div id="wrap_footer">
+
+
+    <div class="footer_t">
+        <div class="sns">
+            <!--            <a href="https://www.facebook.com/blankcp/"><img-->
+            <!--                    src="http://blankcorp.kr/include/footer/force/img/sns_f.jpg"></a>-->
+            <a href="https://www.instagram.com/eg_interview/"><img
+                    src="http://blankcorp.kr/include/footer/force/img/sns_i.jpg"></a>
+        </div>
+        <div class="footer_txt">
+            <p class="f-mark">Adapt English.</p>
+            <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+        </div>
+        <div class="footer_info">
+            <p class="f-mark">themelios01@gmail.com</p>
+            <p class="f-nb">서울시 마포구 효창목 5안길 18-2</p>
+            <p class="f-nb">Phone 010-5605-5479</p>
+        </div>
+        <div class="footer_txt m_block">
+            <p class="f-mark">Adapt English.</p>
+            <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+<!-- end Footer Area
+========================================== -->
+
+
+<!--
+Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="{% static 'assets/plugins/jquery/jquery.min.js' %}"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="{% static 'assets/plugins/google-map/gmap.js' %}"></script>
+
+<!-- Form Validation -->
+<script src="{% static 'assets/plugins/form-validation/jquery.form.js' %}"></script>
+<script src="{% static 'assets/plugins/form-validation/jquery.validate.min.js' %}"></script>
+
+<!-- Bootstrap4 -->
+<script src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<!-- Parallax -->
+<script src="{% static 'assets/plugins/parallax/jquery.parallax-1.1.3.js' %}"></script>
+<!-- lightbox -->
+<script src="{% static 'assets/plugins/lightbox2/dist/js/lightbox.min.js' %}"></script>
+<!-- Owl Carousel -->
+<script src="{% static 'assets/plugins/slick/slick.min.js' %}"></script>
+<!-- filter -->
+<script src="{% static 'assets/plugins/filterizr/jquery.filterizr.min.js' %}"></script>
+<!-- Smooth Scroll js -->
+<script src="{% static 'assets/plugins/smooth-scroll/smooth-scroll.min.js' %}"></script>
+
+<!-- Custom js -->
+<script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+</html>

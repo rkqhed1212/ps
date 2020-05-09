@@ -1,0 +1,1146 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=1.0">
+
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
+    <meta property="fb:pages" content="1463539053878956">
+    <title>Adapt English</title>
+    <link rel="stylesheet" href="http://blankcorp.kr/css/default.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/header/force/header_inc.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/main/force/main_inc.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/footer/force/footer_inc.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/css/sub.css?v=20200429">
+    <link rel="stylesheet" href="http://blankcorp.kr/css/bootstrap1.css">
+
+    <!--[if lte IE 8]>
+    <script src="http://blankcorp.kr/js/html5.js"></script>
+    <![endif]-->
+    <script>
+var g5_url="http://blankcorp.kr",g5_bbs_url="http://blankcorp.kr/bbs",g5_is_member="",g5_is_admin  = "",g5_is_mobile="",g5_bo_table="",g5_sca="",g5_editor="",g5_cookie_domain = "";
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <script src="http://blankcorp.kr/js/jquery-1.9.1.min.js"></script>
+    <script src="http://blankcorp.kr/js/jquery.menu.js"></script>
+    <script src="http://blankcorp.kr/js/common.js"></script>
+    <script src="http://blankcorp.kr/js/wrest.js"></script>
+    <script src="http://blankcorp.kr/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://blankcorp.kr/js/jquery.transit.min.js"></script>
+    <script src="http://blankcorp.kr/js/slick.min.js"></script>
+    <link rel="stylesheet" href="http://blankcorp.kr/css/slick.min.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/css/slick-theme.min.css">
+    <script type="text/javascript" src="http://blankcorp.kr/js/skrollr.min.js"></script>
+    <script>
+var sk_obj = 0;
+function skrollrInit() {
+	sk_obj = skrollr.init({
+		forceHeight: true,
+		smoothScrolling: false,
+    mobileDeceleration: 0.004,
+		mobileCheck: function() {
+			//hack - forces mobile version to be off
+			return false;
+		}
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    <script src="//rum.beusable.net/script/b200103e111736u425/cffeae9fde" async="" type="text/javascript"></script>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Bingo One page parallax responsive HTML Template ">
+
+
+<!-- Mobile Specific Meta
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/favicon.png' %}"/>
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="{% static 'assets/plugins/themefisher-font/style.css' %}">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="{% static 'assets/plugins/lightbox2/dist/css/lightbox.min.css' %}">
+<!-- animation css -->
+<link rel="stylesheet" href="{% static 'assets/plugins/animate/animate.css' %}">
+<link rel="stylesheet" href="{% static 'assets/plugins/slick/slick.css' %}">
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+<body id="body">
+<header class="navigation fixed-top sticky-header">
+    <div class="container">
+        <!-- main nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- logo -->
+            <a class="navbar-brand logo" href="{% url 'index' %}">
+                <img class="logo-default" src="{%static 'assets/images/logo1.png' %}"/>
+                <img class="logo-white" src="{static 'assets/images/logo2.png %}"/>
+            </a>
+            <!-- /logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'service' %}">Interview class</a>
+                            <a class="dropdown-item" href="{% url 'business' %}">Business English</a>
+                            <!--                            <a class="dropdown-item" href="{% url 'personal' %}">Personal Customization English-->
+                            <!--                                class</a>-->
+                        </div>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'pricing' %}">Pricing</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /main nav -->
+    </div>
+</header>
+<section class="hero-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s"> English Consulting <br>
+                    </h1>
+                    <p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s"> Interview prepare,
+                        Business
+                        English, Personal Customization English class
+                    </p>
+                    <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                        <li class="list-inline-item">
+                        </li>
+                        <li class="list-inline-item">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="aboutPage-hero">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="aboutPage-hero-imageContainer">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div id="total_wrap">
+    <div id="wrap">
+
+        <div id="wrap_header">
+
+            <script type="text/javascript">
+$("document").ready(function () {
+$('.header_t').addClass("f-nav");
+$('.tmp_header').css("max-width", "100%");
+$('.header_t').css("padding-top", "3px");
+//	$('.header_t').css("height", "80px");
+if($(window).width() < 992){
+	$('.dropdown_all').css("top", "106px");
+}else{
+	$('.dropdown_all').css("top", "56px");
+}
+$('.dropdown_all').css("background", "rgba(255,255,255,1)");
+//$('.dropdown_all').css("border-bottom", "1px solid #555");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </script>
+
+
+            <script>
+	$(document).ready(function(){
+			$(".select_d").on('click' , function(){
+				if($(".select_d").find("span").attr("class")=="down"){
+					$(".select_op").slideDown(180);
+					$(".select_d").find("span").html("<img src='/include/header/force/img/lang_up.png'>");
+					$(".f-nav .select_d").find("span").html("<img src='/include/header/force/img/lang_up_roll.png'>");
+					$(".modal .select_d").find("span").html("<img src='/include/header/force/img/lang_up_roll.png'>");
+					$(".select_d").find("span").removeClass("down");
+					$(".select_d").find("span").addClass("up");
+				}else if($(".select_d").find("span").attr("class")=="up"){
+					$(".select_op").slideUp(90);
+					$(".select_d").find("span").html("<img src='/include/header/force/img/lang_down.png'>");
+					$(".f-nav .select_d").find("span").html("<img src='/include/header/force/img/lang_down_roll.png'>");
+					$(".modal .select_d").find("span").html("<img src='/include/header/force/img/lang_down_roll.png'>");
+					$(".select_d").find("span").removeClass("up");
+					$(".select_d").find("span").addClass("down");
+				}
+			});
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </script>
+
+            <!-- 뷰저블 -->
+            <script type="text/javascript">
+(function(w, d, a){
+    w.__beusablerumclient__ = {
+        load : function(src){
+            var b = d.createElement("script");
+            b.src = src; b.async=true; b.type = "text/javascript";
+            d.getElementsByTagName("head")[0].appendChild(b);
+        }
+    };w.__beusablerumclient__.load(a);
+})(window, document, "//rum.beusable.net/script/b200103e111736u425/cffeae9fde");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </script>
+            <!-- //뷰저블 -->
+        </div><!-- wrap_header end -->
+
+        <!--        <div id="wrap_sub">-->
+        <!--            <div class="sub_content">-->
+        <!--                <div class="content_desc">-->
+
+        <!-- 사이트 컨텐츠 -->
+
+        <style>
+.slider-wrapper			{padding-top:100px;}
+.slider-wrapper .slider	{height:460px;}
+.slider-wrapper .slider .slide	{background-size:auto !important; height:460px;}
+.slider-progress {margin-left: 80px; width: 73%; height: 1px; background: #e5e5e5;}
+.slider-number	{float:left;display:block;width:80px;margin-top:-12px; font-size:16px;}
+@media only screen and (min-width:2200px){
+.slider-wrapper .slider .slide	{background-size:100% !important;}
+}
+
+@media(max-width:1240px){
+.slider-progress {margin-left: 80px; width: 70%; max-width:700px !important; height: 1px; background: #e5e5e5;}
+}
+@media(max-width:1100px){
+.slider-progress {margin-left: 80px; width: 70%; max-width:640px !important; height: 1px; background: #e5e5e5;}
+}
+@media(max-width:991px){
+.slider-progress {margin-left: 80px; width: 60%; max-width:550px !important; height: 1px; background: #e5e5e5;}
+}
+@media(max-width:880px){
+.slider-progress {margin-left: 80px; width: 60%; max-width:450px !important; height: 1px; background: #e5e5e5;}
+}
+@media(max-width:768px){
+.slider-progress	{display:none;}
+.slider-wrapper .slider	{height:auto;}
+.slider-wrapper .slider .slide	{background-image:none !important; background-color:#fff !important; height:auto;}
+.slider-wrapper .slider .slide img	{width:100%; display:block;}
+.slider-number	{float:left;display:block;width:80px;margin-top:-5px; margin-left:5%; font-size:1rem;}
+}
+
+d-block w-100 { height:200px width: 300px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+
+
+        <div class="back_move">
+
+            <div class="wid-01">
+                <br>
+                <br>
+                <h2 class="content_title f-markb">
+                    Think &amp;<br> Solution
+                </h2>
+                <div class="sp_basic">
+                    <h3 class="f-ns wowload fadeInDown animated animated" data-wow-delay="0.1s"
+                        style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
+                        영어의 고민 해결해 드리겠습니다.</h3>
+                    <p class="wowload fadeInUp animated animated" data-wow-delay="0.2s"
+                       style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        영어교육으로 인생의 반을 공부해도 실력이 안 느는 이유는 무엇일까요? 너무 많은 공부법, 암기, 번역 넘치는 정보화 시대 우리에게 만 Solution은 무엇일까
+                        고민했습니다. Adapt English는 미국에서의 10년간의 삶을 통해서 배운 문화적 차이와 수업을 통해서 느낀 한국식 영어의 문제점을 고민했습니다.
+                        <br><br>
+
+                        언어는 그 나라의 표현 언어입니다. 우리는 듣고 말하기를 먼저 배웠지 글을 쓰고 문법을 배우지 않았습니다. 자기가 가지고 있는 영어 실력을 정리와 상담을 통해서 정리해서
+                        응용해서 영어를 사용할 수 있으면 영어의 실력이 늘 수 있다고 믿습니다.
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="cul_wrap">
+                <div class="wid-01">
+                    <ul class="wowload fadeInLeft animated animated"
+                        style="visibility: visible; animation-name: fadeInLeft;">
+                        <li><h3 class="f-markb ">SPIRIT.01</h3></li>
+                        <li><h4 class="f-ns">개인의 1:1 맞춤형 수업을 <br>추구합니다.</h4></li>
+                        <li class="f-nb">학원에서 만들어진 커리큘럼은 여러명을 가르쳐야 하기 때문에 진도를 나가기에 정신이 없습니다.
+                            하지만 개인 맞춤형 수업을 통해서 내가 궁금했던 점과 부족한 점을 수업을 통해서 알아갈 수 있습니다.
+                        </li>
+                    </ul>
+                    <ul class="wowload fadeInRight animated animated" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
+                        <li><h3 class="f-markb">SPIRIT.02</h3></li>
+                        <li><h4 class="f-ns">오프라인 서비스와 온라인 서비스를<br>제공합니다</h4></li>
+                        <li class="f-nb"> Zoom 앱으로 거리 상관없는 수업을 제공하고 있습니다. 대면 수업을 원하시는 분은 찾아가는 서비스를 제공합니다.
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="wowload fadeInLeft animated animated" data-wow-delay="0.5s"
+                        style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <li><h3 class="f-markb">SPIRIT.03</h3></li>
+                        <li><h4 class="f-ns">현실성 있는 <br>수업을 제안합니다.</h4></li>
+                        <li class="f-nb">
+                            고급영어, 비즈니스 영어, 원어민들이 사용하지 않는 단어와 문장을 불필요하게 배우실 필요가 없습니다. 같은 말이라도 metaphor와 analogy를 통해서
+                            원어민처럼 영어의 표현을 배우실 수 있습니다.
+                        </li>
+                    </ul>
+                    <ul class="wowload fadeInRight animated animated" data-wow-delay="0.6s"
+                        style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;">
+                        <li><h3 class="f-markb">SPIRIT.04</h3></li>
+                        <li><h4 class="f-ns">끊임없이 변화하고<br>시장에 대응하며 빠르게 도전합니다.</h4></li>
+                        <li class="f-nb">개개인과 조직원 간의 긴밀한 커뮤니케이션을 통해 빠르게 변화하는 시장 상황에 유연하게 대응합니다. 실패 속에서도
+                            배울 점을
+                            찾아내고 이를 교훈 삼아 새롭게 도전합니다.
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="working_back">
+            </div>
+        </div>
+        <div class="working_wrap">
+            <div class="clear"></div>
+            <div class="working_back">
+            </div>
+        </div>
+
+
+        <style>
+.main_visual iframe {position: absolute;width: 400%;height: 120%;min-height:1060px;margin-left: -150%;margin-top: -50px;z-index: 0;}
+.slider-wrapper .slider	{height:500px;}
+.slider-wrapper .slider .slide	{background-size:auto !important; height:500px;}
+.slider-progress {margin-left: 80px; width: 73%; height: 1px; background: #e5e5e5;}
+.slick-next	{right:10px; height:22px; background:url(/img/main_slide_next.png) no-repeat center top; z-index:999;}
+.slick-prev	{left:10px;  height:22px; text-align:right;background:url(/img/main_slide_prev.png) no-repeat center top; z-index:999;}
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover	{}
+@media(min-width:2200px){
+.slider-wrapper .slider .slide	{background-size:100% !important;}
+}
+@media(max-width:1240px){
+.slider-progress {margin-left: 80px; width: 70%; height: 1px; background: #e5e5e5;}
+}
+@media(max-width:991px){
+.slider-progress {margin-left: 80px; width: 60%; height: 1px; background: #e5e5e5;}
+}
+@media(max-width:768px){
+.slider-progress	{display:none;}
+.slider-wrapper .slider	{height:auto;}
+.slider-wrapper .slider .slide	{background-image:none !important; background-color:#fff !important; height:auto;}
+.slick-next	{display:none !important;}
+.slick-prev	{display:none !important;}
+}
+
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 새글 스킨 (latest) */
+.lt_pc {}
+.lt {position:relative;}
+.lt ul {margin:0 0 10px;padding:0;list-style:none}
+.lt li {padding:3px 0;}
+.lt li a {font-size:22px; display:block; margin:20px 0 10px;}
+.lt li p {font-size:15px; line-height:1.6; color:#666;}
+.lt .lt_title {display:block;padding:10px 0 8px}
+.lt .lt_more {position:absolute;top:10px;right:0}
+.lt .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold}
+
+@media(max-width:768px){
+.lt li a {font-size:1.8em; display:block; margin:5px 0 5px;}/*1.8rem*/
+.lt li p {font-size:1.05rem; line-height:1.6;}
+#bg_youtube {display:none;}
+
+}
+@media(max-width:680px){
+.lt li a {font-size:1.6em; display:block; margin:5px 0 5px;}/*1.8rem*/
+.lt li p {font-size:1.05rem; line-height:1.6;}
+
+}
+
+.video_bg	{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    visibility: hidden;
+		border:1px solid red;
+		height:1000px;
+}
+#bg_youtube video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 128%;
+    height: 128%;
+		min-height:800px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+
+
+        <script>
+		$(function(){
+			cnt = $(".slider > div").length;
+			if(cnt < 10){
+				cnt = "0"+cnt;
+			}
+			$("#spn_cnt").html("/ " + cnt);
+			var time = 4;
+			var $bar,
+					$slick,
+					isPause,
+					tick,
+					percentTime;
+
+			$slick = $('.slider');
+			$slick.slick({
+				draggable: true,
+				adaptiveHeight: false,
+				dots: false,
+				mobileFirst: true,
+				pauseOnDotsHover: true,
+			});
+			$bar = $('.slider-progress .progress');
+
+			$slick.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+
+				resetProgressbar();
+				percentTime = 0;
+				isPause = false;
+				tick = setInterval(interval, 10);
+
+				var currentSlide = nextSlide;
+				if((currentSlide+1) < 10){
+					currentSlide = "0"+(currentSlide+1);
+				}
+				$("#spn_cur_cnt").html(currentSlide);
+				startProgressbar();
+			});
+
+			$('.slider-wrapper').on({
+				mouseenter: function() {
+					//isPause = true;
+					isPause = false;
+
+				},
+				mouseleave: function() {
+					isPause = false;
+				}
+			})
+
+			function startProgressbar() {
+				resetProgressbar();
+				percentTime = 0;
+				isPause = false;
+				tick = setInterval(interval, 10);
+			}
+
+			function interval() {
+				if(isPause === false) {
+					percentTime += 1 / (time+0.1);
+					$bar.css({
+						width: percentTime+"%"
+					});
+					if(percentTime >= 100)
+						{
+							$slick.slick('slickNext');
+							var currentSlide = $slick.slick('slickCurrentSlide');
+							if((currentSlide+1) < 10){
+								currentSlide = "0"+(currentSlide+1);
+							}
+							$("#spn_cur_cnt").html(currentSlide);
+							startProgressbar();
+						}
+				}
+			}
+			function resetProgressbar() {
+				$bar.css({
+				 width: 0+'%'
+				});
+				clearTimeout(tick);
+			}
+			startProgressbar();
+			//console.log($("html,body").scrollTop());
+		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+        <script>
+/*
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var mvID = ["영상파일 파일 #1에 첨부"];
+var player;
+function onYouTubeIframeAPIReady() {
+		player = new YT.Player('intro_movie', {
+				videoId: mvID[0],
+				playerVars: {
+						'controls': 0,
+						'wmode': "opaque"
+				},
+				events: {
+						'onReady': onPlayerReady,
+						'onStateChange': onPlayerStateChange
+				}
+		});
+		$("#intro_movie").css("overflow", "hidden");
+}
+function onPlayerReady(event) {
+		event.target.mute();
+		event.target.playVideo();
+}
+function onPlayerStateChange(event) {
+		if (event.data === 0) {
+				event.target.loadVideoById(mvID[0]);
+		}
+}
+*/
+
+$(function(){
+	var vid = document.getElementById("mainVideo");
+	vid.autoplay = true;
+	vid.load();
+});
+$(document).ready(function(){
+			skrollrInit();
+		init_movie();
+
+	$(window).resize(function(){
+				init_movie();
+
+	})
+});
+
+function init_movie(){
+	//console.log($(window).height());
+	var wid = $(window).width();
+	var hei = $(window).height();
+	var bi_int = 1029 - $(window).height();
+	var wid2 = parseInt(wid+200);
+	var hei2 = parseInt(hei+200);
+	//"1280 x 780"
+
+	var windowWidth = $( window ).width();
+	var widthRatio = 16;
+	var heightRatio = 9;
+	var vdHeight = parseInt(( wid2 / widthRatio ) * heightRatio);
+	var vdBox = jQuery("#vd_box");
+	vdBox.css("height", vdHeight);
+	if(hei > vdHeight){
+		vdHeight = hei;
+	}
+
+	targetwidth = 1920;
+	targetheight = 1080;
+
+	var rate, newwidth, newheight;
+	boxwidth = $( window ).width();
+	boxheight = $( window ).height();
+
+	rate = ( targetwidth > targetheight )? boxheight/targetheight : boxwidth/targetwidth;
+	rate = ( boxheight > Math.round(targetheight*rate) )? boxheight/targetheight : ( boxwidth > targetwidth*rate )? boxwidth/targetwidth : rate;
+
+	newwidth = Math.max(boxwidth, Math.round(targetwidth*rate));
+	newheight = Math.max(boxheight, Math.round(targetheight*rate));
+
+	$("#bg_youtube").find("video").css({
+		width: newwidth,
+		height: newheight,
+		marginLeft: (boxwidth-newwidth)/2,
+		marginTop: (boxheight-newheight)/2
+	});
+
+	//$("#bg_youtube").find("video").css({"width":wid2+"px", "height":vdHeight+"px", "margin-left":"-100px"});
+
+	if($(window).width() < 752){
+		$("#bg_youtube").hide();
+		$(".main_visual").css({"height":"auto"});
+		$(".main_visual").find(".txt").css({"top":"inherit", "bottom":"120px"});
+		$(".linkbox_01").css({"top":"inherit", "bottom":"-40px"});
+	}else{
+		$("#bg_youtube").show();
+		$(".main_visual").css({"height":hei+"px"});
+		$(".main_visual").find(".txt").css({"top":parseInt(589-bi_int)+"px"});
+		$(".linkbox_01").css({"top":parseInt(900-bi_int)+"px"});
+	}
+
+	$("#bg_youtube").css({"height":hei+"px", "max-height":hei+"px"});
+
+	var tmp_arr = new Array();
+	j = 0;
+	$(".linkbox_01").each(function() {
+		$.each(this.attributes, function(i) {
+			// this.attributes is not a plain object, but an array
+			// of attribute nodes, which contain both the name and value
+			if(/data/.exec(this.name)) {
+				tmp_arr[j] = this.name;
+				//console.log(rega[0]);
+				//console.log(this.name + "====" + this.value);
+				j++;
+			}
+		});
+	});
+
+	for(k = 0; k < (j); k++){
+		//console.log(tmp_arr[k]);
+		$(".linkbox_01").removeAttr(tmp_arr[k]);
+	}
+		$(".linkbox_01").attr("data-"+parseInt(360-bi_int), "transform:translateY(-20px);");
+	$(".linkbox_01").attr("data-"+parseInt(760-bi_int), "transform:translateY(40px);");
+
+	sk_obj.refresh();
+}
+
+//onYouTubeIframeAPIReady();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <div class="ac_wrap ">
+            <div class="wid-01">
+                <img src="{%static 'assets/images/trust1.png'%}" height="300"
+                     class="wowload fadeInLeft animated img animated"
+                     data-wow-delay="0.1s"
+                     style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                <div class="ac_txt wowload fadeInRight animated animated" data-wow-delay="0.2s"
+                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
+                    <h3 class="f-nbb">본질에 집중하는 회사를 <br>만듭니다.</h3>
+                    <p>
+                        Why란 본질을 바탕으로 끊임없는 생각과 도전을 통한 지속적인 발전으로 개개인의 문제점이 무엇일까를 고민합니다. 단순한 암기와 반복이 아닌 문맥의 상황을 이해함으로써 외우지
+                        않아도 자연스럽게 영어를 사용할 수 있도록 영감을 주고 싶습니다. Adapt English의 핵심은 영어라는 도구가 개인의 꿈을 위해서 도구로 사용되기를 응원합니다.
+                    </p>
+                    <a class="f-nbb" href="{% url 'about' %}">Learn more &nbsp;&nbsp;
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--        <section class=" section"  id = "testimonial1">-->
+        <!--            <div class="container">-->
+        <!--                <div class="row">-->
+        <!--                    <div class="col-lg-12">-->
+        <!--                        &lt;!&ndash; testimonial wrapper &ndash;&gt;-->
+        <!--                        <div class="testimonial-slider slick-initialized slick-slider">-->
+        <!--                            &lt;!&ndash; testimonial single &ndash;&gt;-->
+        <!--                            <div class="slick-list draggable">-->
+        <!--                                <div class="slick-track"-->
+        <!--                                     style="opacity: 1; width: 6580px; transform: translate3d(-1880px, 0px, 0px); transition: transform 500ms ease 0s;">-->
+        <!--                                    <div class="item text-center slick-slide slick-cloned" data-slick-index="-1"-->
+        <!--                                         aria-hidden="true" style="width: 940px;" tabindex="-1">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                            <img src="{%static 'assets/images/review/review1.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                    <div class="item text-center slick-slide" data-slick-index="0" aria-hidden="true"-->
+        <!--                                         style="width: 940px;" tabindex="0">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        <div class="client-details">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                              <img src="{%static 'assets/images/review/review2.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        <div class="client-meta">-->
+        <!--                                            <h3>Abul Mal Muhit</h3>-->
+        <!--                                            <span>CEO , Company Name</span>-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                    <div class="item text-center slick-slide slick-current slick-active"-->
+        <!--                                         data-slick-index="1" aria-hidden="false" style="width: 940px;" tabindex="-1">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        <div class="client-details">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                              <img src="{%static 'assets/images/review/review3.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        <div class="client-meta">-->
+        <!--                                            <h3>Abul Mal Muhit</h3>-->
+        <!--                                            <span>CEO , Company Name</span>-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                    <div class="item text-center slick-slide" data-slick-index="2" aria-hidden="true"-->
+        <!--                                         style="width: 940px;" tabindex="-1">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        <div class="client-details">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                              <img src="{%static 'assets/images/review/review4.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        <div class="client-meta">-->
+        <!--                                            <h3>Abul Mal Muhit</h3>-->
+        <!--                                            <span>CEO , Company Name</span>-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                    <div class="item text-center slick-slide slick-cloned" data-slick-index="3"-->
+        <!--                                         aria-hidden="true" style="width: 940px;" tabindex="-1">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        <div class="client-details">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                              <img src="{%static 'assets/images/review/review6.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        <div class="client-meta">-->
+        <!--                                            <h3>Abul Mal Muhit</h3>-->
+        <!--                                            <span>CEO , Company Name</span>-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                    <div class="item text-center slick-slide slick-cloned" data-slick-index="4"-->
+        <!--                                         aria-hidden="true" style="width: 940px;" tabindex="-1">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        <div class="client-details">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                             <img src="{%static 'assets/images/review/review7.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        <div class="client-meta">-->
+        <!--                                            <h3>Abul Mal Muhit</h3>-->
+        <!--                                            <span>CEO , Company Name</span>-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                    <div class="item text-center slick-slide slick-cloned" data-slick-index="5"-->
+        <!--                                         aria-hidden="true" style="width: 940px;" tabindex="-1">-->
+        <!--                                        <i class="tf-ion-chatbubbles"></i>-->
+        <!--                                        &lt;!&ndash; client info &ndash;&gt;-->
+        <!--                                        <div class="client-details">-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client info &ndash;&gt;-->
+        <!--                                        &lt;!&ndash; client photo &ndash;&gt;-->
+        <!--                                        <div class="client-thumb">-->
+        <!--                                              <img src="{%static 'assets/images/review/review9.png' %}" class="img-responsive" alt="">-->
+        <!--                                        </div>-->
+        <!--                                        <div class="client-meta">-->
+        <!--                                            <h3>Abul Mal Muhit</h3>-->
+        <!--                                            <span>CEO , Company Name</span>-->
+        <!--                                        </div>-->
+        <!--                                        &lt;!&ndash; /client photo &ndash;&gt;-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--                            &lt;!&ndash; /testimonial single &ndash;&gt;-->
+
+        <!--                            &lt;!&ndash; testimonial single &ndash;&gt;-->
+
+        <!--                            &lt;!&ndash; /testimonial single &ndash;&gt;-->
+
+        <!--                            &lt;!&ndash; testimonial single &ndash;&gt;-->
+
+        <!--                            &lt;!&ndash; /testimonial single &ndash;&gt;-->
+        <!--                        </div>-->
+        <!--                    </div>        &lt;!&ndash; end col lg 12 &ndash;&gt;-->
+        <!--                </div>        &lt;!&ndash; End row &ndash;&gt;-->
+        <!--            </div>       &lt;!&ndash; End container &ndash;&gt;-->
+        <!--        </section>-->
+
+
+        <div id="wrap_footer">
+
+
+            <div class="footer_t">
+                <div class="sns">
+                    <!--                    <a href="https://www.facebook.com/blankcp/"><img-->
+                    <!--                            src="http://blankcorp.kr/include/footer/force/img/sns_f.jpg"></a>-->
+                    <a href="https://www.instagram.com/eg_interview/"><img
+                            src="http://blankcorp.kr/include/footer/force/img/sns_i.jpg"></a>
+                </div>
+                <div class="footer_txt">
+                    <p class="f-mark">Adapt English.</p>
+                    <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+                </div>
+                <div class="footer_info">
+                    <p class="f-mark">themelios01@gmail.com</p>
+                    <p class="f-nb">서울시 마포구 효창목 5안길 18-2</p>
+                    <p class="f-nb">Phone 010-5605-5479</p>
+                </div>
+                <div class="footer_txt m_block">
+                    <p class="f-mark">Adapt English.</p>
+                    <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-117942480-1"></script>
+        <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117942480-1');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <!-- } 하단 끝 -->
+
+        <script>
+$(function() {
+    // 폰트 리사이즈 쿠키있으면 실행
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+        <script src="http://blankcorp.kr/mobile/include/force/assets/wow/wow.min.js"></script>
+        <link rel="stylesheet" href="http://blankcorp.kr/mobile/include/force/assets/wow/animate.css">
+
+        <script>
+var wow = new WOW({
+	boxClass:     'wowload',      // animated element css class (default is wow)
+	animateClass: 'animated', // animation css class (default is animated)
+	offset:       0,          // distance to the element when triggering the animation (default is 0)
+	mobile:       true,       // trigger animations on mobile devices (default is true)
+	live:         true        // act on asynchronously loaded content (default is true)
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <!--[if gt IE 8]>
+        <script type="text/javascript">
+if(!navigator.userAgent.match(/(iPhone|android|iPad)/)){
+wow.init();
+}
+        </script>
+        <![endif]-->
+
+        <!--[if !IE]> -->
+        <script type="text/javascript">
+if(!navigator.userAgent.match(/(iPhone|android|iPad)/)){
+wow.init();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+        <script src="{% static 'assets/plugins/jquery/jquery.min.js' %}"></script>
+        <!-- Google Map -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+        <script src="{% static 'assets/plugins/google-map/gmap.js' %}"></script>
+
+        <!-- Form Validation -->
+        <script src="{% static 'assets/plugins/form-validation/jquery.form.js' %}"></script>
+        <script src="{% static 'assets/plugins/form-validation/jquery.validate.min.js' %}"></script>
+
+        <!-- Bootstrap4 -->
+        <script src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+        <!-- Parallax -->
+        <script src="{% static 'assets/plugins/parallax/jquery.parallax-1.1.3.js' %}"></script>
+        <!-- lightbox -->
+        <script src="{% static 'assets/plugins/lightbox2/dist/js/lightbox.min.js' %}"></script>
+        <!-- Owl Carousel -->
+        <script src="{% static 'assets/plugins/slick/slick.min.js' %}"></script>
+        <!-- filter -->
+        <script src="{% static 'assets/plugins/filterizr/jquery.filterizr.min.js' %}"></script>
+        <!-- Smooth Scroll js -->
+        <script src="{% static 'assets/plugins/smooth-scroll/smooth-scroll.min.js' %}"></script>
+
+        <!-- Custom js -->
+        <script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+</html>

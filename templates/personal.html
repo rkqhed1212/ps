@@ -1,0 +1,731 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Bingo One page parallax responsive HTML Template ">
+
+    <meta name="author" content="Themefisher.com">
+
+    <title>Adapt English</title>
+
+    <!-- Mobile Specific Meta
+      ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/favicon.png' %}"/>
+
+    <!-- CSS
+    ================================================== -->
+    <!-- Themefisher Icon font -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/themefisher-font/style.css' %}">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Lightbox.min css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/lightbox2/dist/css/lightbox.min.css' %}">
+    <!-- animation css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/animate/animate.css' %}">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/slick/slick.css' %}">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+</head>
+
+<body id="body">
+
+
+<!--
+Fixed Navigation
+==================================== -->
+<header class="navigation fixed-top">
+    <div class="container">
+        <!-- main nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- logo -->
+            <a class="navbar-brand logo" href="index.html">
+                <img class="logo-default" src="{%static 'assets/images/logo.png' %}" alt="logo"/>
+                <img class="logo-white" src="{static 'assets/images/logo-white.png %}" alt="logo"/>
+            </a>
+            <!-- /logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'service' %}">Interview class</a>
+                            <a class="dropdown-item" href="{% url 'business' %}">Business English</a>
+                            <a class="dropdown-item" href="{% url 'personal' %}">Personal Customization English
+                                class</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'pricing' %}">Pricing</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /main nav -->
+    </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+
+<section class="single-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Our Services</h2>
+                <ol class="breadcrumb header-bradcrumb">
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about-2 section">
+    <div class="container">
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-12">
+                <div class="title text-center">
+                    <h1>For Who</h1>
+                    <p>이러한 고민이 있으신 분들을 위한 클래스 입니다.</p>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+
+            <div class="col-md-6">
+                <ul class="checklist">
+                    <li><h4>회의에서 어떻게 의견을 말해야 할지 모르시는 분</h4></li>
+                    <li><h4>커리어를 위해서 비지니스 영어 공부가 필요하신 분</h4></li>
+                    <li><h4>업무상 비니지스 영어를 사용해야 하시는 분</h4></li>
+                    <li><h4>영문 이메일,컨프런스 콜,프레젠텐이션 글로벌회사에 일 하시는 분</h4></li>
+                </ul>
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</section> <!-- End section -->
+
+<section class="service-2 section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <!-- section title -->
+                <div class="title text-center">
+                    <h2>What Do We Offer</h2>
+                    <div class="border"></div>
+                </div>
+            </div>
+        </div><!-- END COL -->
+
+
+        <div class="col-md-12">
+            <div class="service-item">
+                <div class="panel-pane pane-views-panes pane-binder-resources-panel-pane-5 binder-resources closed">
+
+                    <div class="title-row">
+                        <div class="row">
+                            <h2 class="pane-title"><span class="icon">Communication class (12 week courses) </span></h2>
+                        </div>
+                    </div>
+
+
+                    <div class="pane-content">
+                        <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                        </div>
+                        </span></div>
+                </div>
+                <div class="views-row views-row-1">
+
+                    <a class="arrow arrow-expand" href=""></a>
+                    <div class="views-field views-field-field-resource-icon">
+                        <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                        src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                        width="50" height="50"></div>
+                    </div>
+                    <div class="views-field views-field-field-resource-description hide">
+                        <div class="field-content"> 비즈니스 인맥을 쌓고, 외국인 본사 직원과 소통하고, 새로운 계약을 성사시키기 위한 스몰톡 주제와 의사소통 전략 등을
+                            학습하고 싶으신 분
+                        </div>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="field-content">일상적인 대화를 넘어 심도있는 주제에 대해 자신의 생각을 유창하고 효율적으로 표현하고 싶으신 분
+
+
+                        </div>
+                    </div>
+                    <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                    src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                    width="50" height="50"></div>
+                    <div class="views-field views-field-php resource-content hide">        <span class="field-content"><div
+                            class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+                    </div>
+ <div class="field-content">비즈니스 매너를 갖춘 실무 필수 표현을 활용해 컨퍼런스콜, 업무 회의에서 원활하게 커뮤니케이션 할 수 있습니다.
+
+
+                        </div>
+                    </div>
+                    <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                    src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                    width="50" height="50"></div>
+                    <div class="views-field views-field-php resource-content hide">        <span class="field-content"><div
+                            class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+                    </div>
+
+
+                     <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne_writing" aria-expanded="true"
+                aria-controls="collapseOne_writing">
+         1) Nonverbal Communication ( 4 week courses)
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne_writing" class="collapse show" aria-labelledby="headingOne_writing" data-parent="#accordion">
+      <div class="card-body">
+                                 <ul>
+                                1) Unit 1 Engaging an audience through gesture
+                                 </ul>
+                            <ul>
+                                    2) Unit 2 Understand body language
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Understand facial expressions.
+                                </ul>
+           <ul>
+                                    4) Unit 4 Understand Eye contact,Touch, Space
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo__writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo_writing"
+                aria-expanded="false"
+                aria-controls="collapseTwo_writing">
+            2) Clarity and Cohesion ( 4 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo_writing" class="collapse" aria-labelledby="headingTwo_writing" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                      1) Unit 1 analogy or Metaphor
+                            <ul>
+                                    2) Unit 2 Empathizing
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Empathy
+                                </ul>
+                                <ul>
+                                    4) Unit 4 Friendliness
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree_writing"
+                aria-expanded="false"
+                aria-controls="collapseThree_writing">
+           3) How to persuade someone  ( 4 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree_writing" class="collapse" aria-labelledby="headingThree_writing" data-parent="#accordion">
+      <div class="card-body">
+               <ul>
+                                1) Unit 1 explain why you are quality
+                            <ul>
+                                    2) Unit 2 How to be likeable person
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Reciprocity other person
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 The Rule of Social proof
+                                </ul>
+      </div>
+    </div>
+  </div>
+</div>
+                    <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                    src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                    width="50" height="50"></div>
+                    </span></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="service-item">
+                    <div class="panel-pane pane-views-panes pane-binder-resources-panel-pane-5 binder-resources closed">
+
+                        <div class="title-row">
+                            <div class="row">
+                                <h2 class="pane-title"><span class="icon">Presentation class (6 week courses) </span>
+                                </h2>
+                            </div>
+                        </div>
+
+
+                        <div class="pane-content">
+                            <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                            </div>
+                            </span></div>
+                    </div>
+                    <div class="views-row views-row-1">
+
+                        <a class="arrow arrow-expand" href=""></a>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-description hide">
+                            <div class="field-content">업무상 영어로 프레젠테이션을 진행해야 하는 직장인
+                            </div>
+                            <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                            <div class="field-content">짧은 시간 내에 핵심 프레젠테이션 영어를 학습하고자 하는 직장인
+                            </div>
+                        </div>
+                        <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                        src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                        width="50" height="50"></div>
+                        <div class="views-field views-field-php resource-content hide">        <span
+                                class="field-content"><div
+                                class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+                    </div>
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+          1) Storytelling (2 week courses)
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                1) Unit 1 know your goal of storytelling
+                            <ul>
+                                    2) Unit 2 Metaphor or analogy start with
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Make Strong thesis
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Don't give facts or figures
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+          2) Structure of presentation (2 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                1) Unit 1 Start with end in mind
+                            <ul>
+                                    2) Unit 2 Choose the story to start
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Make an outline
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Remember presentation
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+          3) Effective Presentation Delivery (2 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                1) Unit 1 Preliminary Presentation
+                            <ul>
+                                    2) Unit 2 understand Why How What (Golden circle)
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Tactics for presenting story
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Deconstruct and reconstruct the images
+                                </ul>
+      </div>
+    </div>
+  </div>
+</div>
+                </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="service-item">
+                    <div class="panel-pane pane-views-panes pane-binder-resources-panel-pane-5 binder-resources closed">
+
+                        <div class="title-row">
+                            <div class="row">
+                                <h2 class="pane-title"><span class="icon">E-mail class (12 week courses)  </span></h2>
+                            </div>
+                        </div>
+
+
+                        <div class="pane-content">
+                            <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="views-row views-row-1">
+
+                        <a class="arrow arrow-expand" href=""></a>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-icon">
+                            <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                            src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                            width="50" height="50"></div>
+                        </div>
+                        <div class="views-field views-field-field-resource-description hide">
+                            <div class="field-content">업무관련 서신교환, 고객관리, 항의&경고, 사과, meeting 공지, 주문하기(orders) 등
+
+                                실질적으로 꼭 필요한 다양한 메일 주제들을 바탕으로 학습합니다.
+                            </div>
+                            <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                            <div class="field-content">일반적인 E-mail에 쓰이는 formal & informal expressions를 학습합니다.
+                            </div>
+                            <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                            <div class="field-content">Business 관련 서신에 쓰이는 구성방식과 다양한 표현을 습득합니다.
+
+
+                            </div>
+                        </div>
+                        <div class="views-field views-field-php resource-content hide">        <span
+                                class="field-content"><div
+                                class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+
+
+</div>
+                             <div class="pane-content">
+                            <div class="view view-binder-resources view-id-binder_resources view-display-id-panel_pane_5 binder-resources view-dom-id-ca325ab26ea39f6644fd2e743451dcb7">
+
+
+                            </div>
+                                     <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+                                     <div class="views-field views-field-field-resource-icon">
+                                <div class="field-content"><img typeof="foaf:Image" alt=""
+                                                                src="/sites/default/files/styles/resource_icon_small/public/resources/icons/04_BMA_cmyk_300px-Icon_19.png?itok=5mI0y_5o"
+                                                                width="50" height="50"></div>
+                            </div>
+
+            <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne_writing" aria-expanded="true"
+                aria-controls="collapseOne_writing">
+         1) Writing Letters ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne_writing" class="collapse show" aria-labelledby="headingOne_writing" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                 <ul>
+                                1) Unit 1 Structure of letters
+                            <ul>
+                                    2) Unit 2 Correct salutations, titles and punctuation
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Correspondence
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Language of letters
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo__writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo_writing"
+                aria-expanded="false"
+                aria-controls="collapseTwo_writing">
+            2) Writing Emails ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo_writing" class="collapse" aria-labelledby="headingTwo_writing" data-parent="#accordion">
+      <div class="card-body">
+             <ul>
+                                      1) Unit 1 Structure of emails
+                            <ul>
+                                    2) Unit 2 Structure of emails
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Punctuation in emails
+                                </ul>
+                                </ul>
+                                <ul>
+                                    4) Unit 4 Language of Emails
+                                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree_writing"
+                aria-expanded="false"
+                aria-controls="collapseThree_writing">
+           3) Writing Reports ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree_writing" class="collapse" aria-labelledby="headingThree_writing" data-parent="#accordion">
+      <div class="card-body">
+               <ul>
+                                1) Unit 1 Structure of reports - planning
+                            <ul>
+                                    2) Unit 2 Structure of reports - layout
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Structure of reports - reports sections
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Language of reports
+                                </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+    <div class="card-header" id="headingfour_writing">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour_writing"
+                aria-expanded="false"
+                aria-controls="collapsefour_writing">
+          4) Correspondence ( 3 week courses)
+        </button>
+      </h5>
+    </div>
+    <div id="collapsefour_writing" class="collapse" aria-labelledby="headingfour_writing" data-parent="#accordion">
+      <div class="card-body">
+                     <ul>
+                                1) Unit 1 Asking for advice
+                            <ul>
+                                    2) Unit 2 Asking for clarification
+                            </ul>
+                                <ul>
+                                    3) Unit 3 Asking for confirmation
+                                </ul>
+                            </ul>
+                                <ul>
+                                    4) Unit 4 Asking for information
+                                </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+    </span></div>
+                        <div class="views-field views-field-php resource-content hide">        <span
+                                class="field-content"><div
+                                class="view view-resource-content view-id-resource_content view-display-id-panel_pane_6 view-dom-id-a2d20cb260b4ec143a658ef3fc6dd386">
+</div>
+                </span>
+                        </div>
+                    </div>
+                </div>
+
+</section>
+
+<section class="call-to-action section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Let's Create Something Together</h2>
+                <a href="" class="btn btn-main">Contact Us</a>
+            </div>
+        </div>        <!-- End row -->
+    </div>    <!-- End container -->
+</section>   <!-- End section -->
+
+<footer id="footer" class="bg-one">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>about</h3>
+                </div>
+                <!-- End of .col-sm-3 -->
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <ul>
+                        <li><h3>Our Services</h3></li>
+                        <li><a href="#">Interview class</a></li>
+                        <li><a href="#">Business class</a></li>
+                        <li><a href="#">personal class</a></li>
+                    </ul>
+                </div>
+                <!-- End of .col-sm-3 -->
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <ul>
+                        <li><h3>Quick Links</h3></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ’s</a></li>
+                    </ul>
+                </div>
+                <!-- End of .col-sm-3 -->
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <ul>
+                        <li><h3>Connect with us Socially</h3></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <!-- End of .col-sm-3 -->
+
+            </div>
+        </div> <!-- end container -->
+    </div>
+    <div class="footer-bottom">
+        <h5>Copyright 2020. All rights reserved.</h5>
+        <h6>Design and Developed by <a href="">Shane</a></h6>
+    </div>
+</footer>
+
+
+<!-- end Footer Area
+========================================== -->
+
+
+<!--
+Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="{% static 'assets/plugins/jquery/jquery.min.js' %}"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="{% static 'assets/plugins/google-map/gmap.js' %}"></script>
+
+<!-- Form Validation -->
+<script src="{% static 'assets/plugins/form-validation/jquery.form.js' %}"></script>
+<script src="{% static 'assets/plugins/form-validation/jquery.validate.min.js' %}"></script>
+
+<!-- Bootstrap4 -->
+<script src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<!-- Parallax -->
+<script src="{% static 'assets/plugins/parallax/jquery.parallax-1.1.3.js' %}"></script>
+<!-- lightbox -->
+<script src="{% static 'assets/plugins/lightbox2/dist/js/lightbox.min.js' %}"></script>
+<!-- Owl Carousel -->
+<script src="{% static 'assets/plugins/slick/slick.min.js' %}"></script>
+<!-- filter -->
+<script src="{% static 'assets/plugins/filterizr/jquery.filterizr.min.js' %}"></script>
+<!-- Smooth Scroll js -->
+<script src="{% static 'assets/plugins/smooth-scroll/smooth-scroll.min.js' %}"></script>
+
+<!-- Custom js -->
+<script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+</html>

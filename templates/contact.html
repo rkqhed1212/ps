@@ -1,0 +1,252 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Bingo One page parallax responsive HTML Template ">
+
+
+    <!-- Mobile Specific Meta
+      ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/favicon.png' %}"/>
+
+    <!-- CSS
+    ================================================== -->
+    <!-- Themefisher Icon font -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/themefisher-font/style.css' %}">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Lightbox.min css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/lightbox2/dist/css/lightbox.min.css' %}">
+    <!-- animation css -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/animate/animate.css' %}">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/slick/slick.css' %}">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/header/force/header_inc.css">
+    <link rel="stylesheet" href="http://blankcorp.kr/include/footer/force/footer_inc.css">
+</head>
+
+<body id="body">
+
+
+<!--
+Fixed Navigation
+==================================== -->
+<header class="navigation fixed-top sticky-header">
+    <div class="container">
+        <!-- main nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- logo -->
+            <a class="navbar-brand logo" href="{% url 'index' %}">
+                <img class="logo-default" src="{%static 'assets/images/logo1.png' %}" alt="logo"/>
+                <img class="logo-white" src="{static 'assets/images/logo2.png %}" alt="logo"/>
+            </a>
+            <!-- /logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'service' %}">Interview class</a>
+                            <a class="dropdown-item" href="{% url 'business' %}">Business English</a>
+                            <!--              <a class="dropdown-item" href="{% url 'personal' %}">Personal Customization English class</a>-->
+                        </div>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'pricing' %}">Pricing</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /main nav -->
+    </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+
+<section class="single-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Contact Us</h2>
+                <ol class="breadcrumb header-bradcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Contact Us</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Start Contact Us
+   =========================================== -->
+<section class="contact-us" id="contact">
+    <div class="container">
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-12">
+                <div class="title text-center">
+                    <h2>Get In Touch</h2>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+
+            <!-- Contact Details -->
+            <div class="contact-details col-md-6 ">
+                <h3>Contact Details</h3>
+                <p> 메세지 남겨주시면 최대한 빠른 시간에 연락드리겠습니다. </p>
+                <ul class="contact-short-info">
+                    <li>
+                        <i class="tf-ion-ios-home"></i>
+                        <span>서울특별시 마포구 효창목 5안길 18-2 </span>
+                    </li>
+                    <li>
+                        <i class="tf-ion-android-phone-portrait"></i>
+                        <span>Phone: 010-5605-5479</span>
+                    </li>
+                    <li>
+                        <i class="tf-ion-android-mail"></i>
+                        <span>Email: themelios01@gmail.com</span>
+                    </li>
+                    <li>
+                        <a href="https://pf.kakao.com/_Nadxnxb/chat/"> <img src="{%static 'assets/images/kako.png' %}"></a> </span>
+                    </li>
+                </ul>
+                <!-- Footer Social Links -->
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="tf-ion-social-instagram"></i></a></li>
+                        <li><a href="#"><i class="tf-ion-social-linkedin-outline"></i></a></li>
+                    </ul>
+                </div>
+                <!--/. End Footer Social Links -->
+            </div>
+            <!-- / End Contact Details -->
+            <br><br>
+            <!-- Contact Form -->
+            <div class="contact-form col-md-6 ">
+                <form action="{% url 'contact' %}" method="post">
+                    {% csrf_token %}
+                     <div class="form-group">
+                        <input type="text" placeholder="Subject" class="form-control" name="contact_name"   >
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Email" class="form-control" name="id_contact_email" >
+                    </div>
+
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Message" class="form-control" name="id_content"
+                        ></textarea>
+                    </div>
+
+
+                    <div id="success" class="success">
+                        <h2>Thank you. The Mailman is on His Way :)
+                        감사합니다.</h2>
+                    </div>
+
+                    <div id="error" class="error">
+                        Sorry, don't know what happened. Try later :(
+                    </div>
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit"  value="Submit">
+                    </div>
+
+                </form>
+            </div>
+            <!-- ./End Contact Form -->
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section> <!-- end section -->
+
+
+<div id="wrap_footer">
+
+    <div class="footer_t">
+        <div class="sns">
+            <!--                    <a href="https://www.facebook.com/blankcp/"><img-->
+            <!--                            src="http://blankcorp.kr/include/footer/force/img/sns_f.jpg"></a>-->
+            <a href="https://www.instagram.com/eg_interview/"><img
+                    src="http://blankcorp.kr/include/footer/force/img/sns_i.jpg"></a>
+        </div>
+        <div class="footer_txt">
+            <p class="f-mark">Adapt English.</p>
+            <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+        </div>
+        <div class="footer_info">
+            <p class="f-mark">themelios01@gmail.com</p>
+            <p class="f-nb">서울시 마포구 효창목 5안길 18-2</p>
+            <p class="f-nb">Phone 010-5605-5479</p>
+        </div>
+        <div class="footer_txt m_block">
+            <p class="f-mark">Adapt English.</p>
+            <p class="f-marko">Copyright, Shane,Kim. All rights reserved.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- end Footer Area
+========================================== -->
+
+
+<!--
+Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="{% static 'assets/plugins/jquery/jquery.min.js' %}"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="{% static 'assets/plugins/google-map/gmap.js' %}"></script>
+
+<!-- Form Validation -->
+<script src="{% static 'assets/plugins/form-validation/jquery.form.js' %}"></script>
+<script src="{% static 'assets/plugins/form-validation/jquery.validate.min.js' %}"></script>
+
+<!-- Bootstrap4 -->
+<script src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<!-- Parallax -->
+<script src="{% static 'assets/plugins/parallax/jquery.parallax-1.1.3.js' %}"></script>
+<!-- lightbox -->
+<script src="{% static 'assets/plugins/lightbox2/dist/js/lightbox.min.js' %}"></script>
+<!-- Owl Carousel -->
+<script src="{% static 'assets/plugins/slick/slick.min.js' %}"></script>
+<!-- filter -->
+<script src="{% static 'assets/plugins/filterizr/jquery.filterizr.min.js' %}"></script>
+<!-- Smooth Scroll js -->
+<script src="{% static 'assets/plugins/smooth-scroll/smooth-scroll.min.js' %}"></script>
+
+<!-- Custom js -->
+<script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+</html>
