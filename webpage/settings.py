@@ -25,9 +25,7 @@ SECRET_KEY = 'oeq31yein6abjykmj%*jtr#$qnnq&arx)n1-y&th!12e7(l2j^'
 # DEBUG can be True/False or 1/0
 DEBUG = int(os.environ.get('DEBUG', default=1))
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
-
+ALLOWED_HOSTS = ['web']
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Application definition
 
